@@ -1,4 +1,4 @@
-Hugo website, with modified Strange Case theme.
+Hugo website, with XMIN theme.
 
 While developing, run:
 

@@ -34,4 +34,6 @@ be particularly effective, they are not required in the non-negative setting.
 
 ### Preprint:
 
-* [**Sparse non-negative super-resolution --- simplified and stabilised**](https://arxiv.org/abs/1804.01490) Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi
+* _Sparse non-negative super-resolution --- simplified and stabilised_ </br>
+  Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
+  [[arXiv]](https://arxiv.org/abs/1804.01490)

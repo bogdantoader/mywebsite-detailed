@@ -5,19 +5,19 @@ Title: Talks/Travelling
 ### 2018
 
 * [InFoMM Annual Meeting 2018](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt/infomm-events--3), 
-  **Oxford**, UK - _oral presentation_ 
-* Numerical Analysis Seminar, **Oxford**, UK - _oral presentation_
+  **Oxford**, UK -- _Oral presentation_ 
+* Numerical Analysis Seminar, **Oxford**, UK -- _Oral presentation_
 * [Research Workshop on Optimization and Big Data](https://obd.kaust.edu.sa), 
-  **KAUST**, Saudi Arabia - _poster presentation_
-  [[link to poster]](http://epostersonline.com/obd2018/node/80)
+  **KAUST**, Saudi Arabia - _Poster presentation_
+  [[eposter link]](http://epostersonline.com/obd2018/node/80)
 * [SIAM UKIE Annual Meeting](http://maths.manchester.ac.uk/siam-ukie/meetings.html), 
-  **Southampton**, UK - _poster presentation_
+  **Southampton**, UK - _Poster presentation_
 
 ### 2017
 
 * [Summer School on Structured Regularization for High-Dimensional Data Analysis](https://regularize-in-paris.github.io), 
   Henri Poincare Institute, **Paris**, France
-* InFoMM Annual Meeting 2017, **Oxford**, UK - _poster presentation_
+* InFoMM Annual Meeting 2017, **Oxford**, UK - _Poster presentation_
 
 ### 2016
 

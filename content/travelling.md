@@ -8,16 +8,17 @@ Title: Talks/Travelling
   **Oxford**, UK -- _Oral presentation_ 
 * Numerical Analysis Seminar, **Oxford**, UK -- _Oral presentation_
 * [Research Workshop on Optimization and Big Data](https://obd.kaust.edu.sa), 
-  **KAUST**, Saudi Arabia - _Poster presentation_
+  **KAUST**, Saudi Arabia -- _Poster presentation_
   [[eposter link]](http://epostersonline.com/obd2018/node/80)
 * [SIAM UKIE Annual Meeting](http://maths.manchester.ac.uk/siam-ukie/meetings.html), 
-  **Southampton**, UK - _Poster presentation_
+  **Southampton**, UK -- _Poster presentation_
 
 ### 2017
 
 * [Summer School on Structured Regularization for High-Dimensional Data Analysis](https://regularize-in-paris.github.io), 
   Henri Poincare Institute, **Paris**, France
-* InFoMM Annual Meeting 2017, **Oxford**, UK - _Poster presentation_
+* InFoMM Group Meeting, **Oxford**, UK -- _Oral presentation_ 
+* InFoMM Annual Meeting 2017, **Oxford**, UK -- _Poster presentation_
 
 ### 2016
 
@@ -28,7 +29,7 @@ Title: Talks/Travelling
   **Durham**, UK</br>
   _Implemented mixed integer programming solution to problem proposed by Syngenta_
 * [InFoMM Graduate Modelling Camp](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt/infomm-events--1), 
-  **Oxford**, UK - _won IMA Best Team Performance prize_
+  **Oxford**, UK -- _Won IMA Best Team Performance prize_
 
 
 

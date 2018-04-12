@@ -1,4 +1,4 @@
-Hugo website, with XMIN theme.
+Hugo website, with XMIN (https://xmin.yihui.name) theme.
 
 While developing, run:
 

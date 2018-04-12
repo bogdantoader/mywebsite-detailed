@@ -7,7 +7,7 @@ Title:
 
 
 # Bogdan Toader
-### Mathematics DPhil Student
+### PhD Student, Applied Mathematics
 
 
 ---
@@ -21,13 +21,13 @@ the University of Oxford as part of
 the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
 and [St. Anne's College](http://www.st-annes.ox.ac.uk/home).
 
-My research is on grid-free compressed sensing/super-resolution, and I am supervised by 
+My research is on grid-free compressed sensing/super-resolution and I am supervised by 
 [Prof. Jared Tanner](https://people.maths.ox.ac.uk/tanner/) and 
 [Dr. Andrew Thompson](https://people.maths.ox.ac.uk/thompson/). The industrial parter for my research project is the 
 [National Physical Laboratory](http://www.npl.co.uk/).
 
 Previously, I received a BSc in Computer Science and Mathematics from 
-the University of Manchester, and I worked for a total of three years
+the University of Manchester and I worked for a total of three years
 in the software industry in London.
 
 ---

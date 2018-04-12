@@ -9,7 +9,7 @@ which will start a server locally.
 To generate the website, change the baseUrl property in config.toml so that
 it uses the correct one (...maths.ox.ac.uk...), then run
 
-`hugo --theme=strange-case-mod`
+`hugo --theme=hugo-xmin`
 
 which will generate all the files in the 'public' directory. Then simply
 copy those files to the server and access the website at

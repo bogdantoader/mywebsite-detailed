@@ -1,6 +1,9 @@
 languageCode = "en-us"
 title = "Bogdan Toader"
+author = "Bogdan Toader"
+#baseURL = "https://people.maths.ox.ac.uk/toader"
 baseURL = "www.mywebsite.com"
+canonifyurls = true
 theme = "hugo-xmin"
 
 [permalinks]

@@ -16,4 +16,6 @@ copy those files to the server and access the website at
 
 https://people.maths.ox.ac.uk/toader/
 
+The stuff to edit is in the 'content' folder.
+
 

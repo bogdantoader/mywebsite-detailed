@@ -29,4 +29,4 @@ theme = "hugo-xmin"
 
 [params]
     description = "Bogdan Toader's academic website."
-    footer = "[Email](mailto:toader@maths.ox.ac.uk) | [LinkedIn](https://www.linkedin.com/in/bogdan-toader/) | [GitHub](https://github.com/bogdantoader)"
+    footer = "[Email](mailto:toader@maths.ox.ac.uk) | [Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |[LinkedIn](https://www.linkedin.com/in/bogdan-toader/) | [GitHub](https://github.com/bogdantoader)"

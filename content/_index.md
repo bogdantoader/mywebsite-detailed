@@ -29,6 +29,7 @@ My research is on **grid-free compressed sensing/super-resolution** and I am sup
 Previously, I received a BSc in Computer Science and Mathematics from 
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
+My [CV](Bogdan_Toader_CV_Aug2018.pdf).
 
 ---
 

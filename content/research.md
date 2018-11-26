@@ -36,6 +36,7 @@ be particularly effective, they are not required in the non-negative setting.
 
 * _Sparse non-negative super-resolution --- simplified and stabilised_ </br>
   Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
+  Submitted 
   [[arXiv]](https://arxiv.org/abs/1804.01490)
 
 
@@ -44,7 +45,8 @@ be particularly effective, they are not required in the non-negative setting.
 
 * _Non-negative super-resolution is stable_ </br>
   Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
-  Presented at [IEEE Data Science Workshop 2018](https://2018.ieeedatascience.org)</br>
+  Presented at [IEEE Data Science Workshop 2018](https://2018.ieeedatascience.org), EPFL</br>
+  [[IEEE Xplore]](https://ieeexplore.ieee.org/document/8439120/)
   [[SigPort]](http://sigport.org/documents/non-negative-super-resolution-stable)
   [[Paper]](/ET4_superresolution_dsw2018.pdf)
   [[Poster]](/ieee_dsw_poster.pdf)

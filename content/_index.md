@@ -15,7 +15,7 @@ Title:
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
 
 
-I am a third year DPhil student in mathematics at 
+I am a fourth year DPhil student in mathematics at 
 the University of Oxford as part of 
 [InFoMM](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt) (Centre for Doctoral Training in Industrially Focused Mathematical Modelling),
 the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
@@ -26,10 +26,15 @@ My research is on **grid-free compressed sensing/super-resolution** and I am sup
 [Dr. Andrew Thompson](https://people.maths.ox.ac.uk/thompson/). The industrial parter for my research project is the 
 [National Physical Laboratory](http://www.npl.co.uk/).
 
+During the period October 2018 - March 2019 I am based at the 
+[Alan Turing Institute](https://www.turing.ac.uk)
+as an [enrichment student](https://www.turing.ac.uk/people/doctoral-students/bogdan-toader).
+
+
 Previously, I received a BSc in Computer Science and Mathematics from 
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
-My [CV](Bogdan_Toader_CV_Aug2018.pdf).
+My [CV](Bogdan_Toader_CV_Nov2018.pdf).
 
 ---
 

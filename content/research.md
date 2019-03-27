@@ -2,10 +2,11 @@
 Title: Research
 ---
 
-## Super-resolution
+# Stability of non-negative super-resolution 
 
 <!--![aaa](/example_signal.png)-->
 
+*Collaborators: Dr Armin Eftekhari, Prof Jared Tanner, Dr Andrew Thompson, Dr Hemant Tyagi*
 
 The convolution of a discrete measure, `$x=\sum_{i=1}^ka_i\delta_{t_i}$`, with a local window function, `$\phi(s-t)$`, is a common model for a measurement device whose resolution is substantially lower than that of the objects being observed. Super-resolution concerns localising the point sources `$\{a_i,t_i\}_{i=1}^k$` with an accuracy beyond the essential support of `$\phi(s-t)$`, typically from `$m$` samples `$y(s_j)=\sum_{i=1}^k a_i\phi(s_j-t_i)+\eta_j$`, where `$\eta_j$` indicates an inexactness in the sample value.   We consider the setting of `$x$` being non-negative and seek to characterise all non-negative measures approximately consistent with the samples. 
 
@@ -32,7 +33,7 @@ be particularly effective, they are not required in the non-negative setting.
 
 
 
-### Preprint:
+#### Preprint:
 
 * _Sparse non-negative super-resolution --- simplified and stabilised_ </br>
   Armin Eftekhari, Jared Tanner, Andrew Thompson, Bogdan Toader and Hemant Tyagi</br>
@@ -40,7 +41,7 @@ be particularly effective, they are not required in the non-negative setting.
   [[arXiv]](https://arxiv.org/abs/1804.01490)
 
 
-### Conference paper:
+#### Conference paper:
 
 
 * _Non-negative super-resolution is stable_ </br>
@@ -49,6 +50,37 @@ be particularly effective, they are not required in the non-negative setting.
   [[IEEE Xplore]](https://ieeexplore.ieee.org/document/8439120/)
   [[SigPort]](http://sigport.org/documents/non-negative-super-resolution-stable)
   [[Paper]](/ET4_superresolution_dsw2018.pdf)
-  [[Poster]](/ieee_dsw_poster.pdf)
+  [[Poster]](/ieee_dsw_poster.pdf)     
 
 
+
+
+​     
+
+​     
+
+​       
+
+
+
+# Other work
+
+During the first year of the [InFoMM CDT](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt), I worked on two 10 week mini-projects with the National Physical Laboratory and Culham Centre for Fusion Energy respectively.
+
+### Improved source detection from hydrophone data
+
+*Collaborators: Dr Stephane Chretien, Dr Peter Harris, Prof Jared Tanner, Dr Andrew Thompson*
+
+Analysed how compressed sensing can be applied to a problem on ship localisation from measurements of the sound in the shipping lane, proposed by the National Physical Laboratory.
+
+[[Lay report]](/InFoMM_Miniproject1.pdf)
+
+
+
+### Computing periodic orbits of ODEs with deflation
+
+*Collaborators: Dr Wayne Arter, Prof Patrick Farrell*
+
+Used deflation to find multiple periodic solutions to a system of ODEs that describes the behaviour of plasma. Problem proposed by Culham Centre for Fusion Energy.
+
+[[Lay report]](/InFoMM_Miniproject2.pdf)

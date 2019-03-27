@@ -2,6 +2,10 @@
 Title: Talks/Travelling
 ---
 
+### 2019
+
+* [Mathematics of Imaging CIRM Winter School](https://imaging-in-paris.github.io/semester2019/school/), **Marseille**, France -- Poster presentation
+
 ### 2018
 
 * [Curves and Surfaces](https://cs2018.sciencesconf.org),
@@ -12,7 +16,6 @@ Title: Talks/Travelling
 
 * [142nd European Study Group with Industry](https://mathforbusiness.ktu.edu/en),
   **Palanga**, Lithuania
-  
 
 * [IEEE Data Science Workshop](https://2018.ieeedatascience.org),
   **Lausanne**, Switzerland -- _Poster presentation_

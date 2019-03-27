@@ -34,7 +34,7 @@ as an [enrichment student](https://www.turing.ac.uk/people/doctoral-students/bog
 Previously, I received a BSc in Computer Science and Mathematics from 
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
-My [CV](Bogdan_Toader_CV_Nov2018.pdf).
+My [CV](Bogdan_Toader_CV_Mar2019.pdf).
 
 ---
 

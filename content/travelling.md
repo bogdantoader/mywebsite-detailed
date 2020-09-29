@@ -2,7 +2,28 @@
 Title: Talks/Travelling
 ---
 
+### 2020
+
+* [Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020](https://www.rms.org.uk/lsfm2020.html), **online** -- _oral presentation_
+
+* [SIAM Conference on Imaging Science (IS20)](https://www.siam.org/conferences/cm/conference/is20), **online** -- _poster presentation_
+
+* [Quantitative BioImaging Conference (QBI 2020)](https://www.quantitativebioimaging.com/qbi2020/), **Oxford**, UK -- _poster presentation_
+
 ### 2019
+
+* [Data Study Group](https://www.turing.ac.uk/events/data-study-group-december-2019), Alan Turing Institute, **London**, UK</br>
+  *Implemented deep learning based solution for image segmentation applied to brighfield microscopy data, 
+  problem proposed by Dstl*
+
+* [International Conference on Continuous Optimization (ICCOPT 2019)](https://iccopt2019.berlin), **Berlin**, Germany -- _oral presentation_
+
+* [2019 13th International Conference on Sampling Theory and Applications (SampTA 2019)](https://sampta2019.sciencesconf.org), **Bordeaux**, France -- *oral presentation*
+
+* [Mathematics in Industry New Zealand Workshop](https://minz.org.nz/2019/), **Auckland**, New Zealand</br>
+  *Implemented optimal transport based solution for decomposing spectrum of cheese samples into different components (fat, protein etc.), problem proposed by Fonterra*
+
+* InFoMM Annual Meeting 2019, **Oxford**, UK -- *Oral presentation*
 
 * [Mathematics of Imaging CIRM Winter School](https://imaging-in-paris.github.io/semester2019/school/), **Marseille**, France -- Poster presentation
 

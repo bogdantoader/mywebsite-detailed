@@ -1,50 +1,47 @@
 ---
-Title: 
+Title: Bogdan Toader
 ---
 
-[<img src="/img/oxlogo.png" style="max-height:68px;min-width:40px;float:right;" alt="Oxford logo" />](https://www.maths.ox.ac.uk)
-[<img src="/img/InFoMM.png" style="max-height:68px;min-width:40px;float:right;margin-right:12px;margin-bottom:17px;" alt="InFoMM logo" />](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt)
+<img src="/img/uc-cmyk.eps" style="max-height:55px;min-width:40px;float:right;margin-right:12px;margin-bottom:17px;" alt="Cambridge logo" />
 
 
 # Bogdan Toader
-### PhD Student, Applied Mathematics
+### Postdoctoral Research Associate 
 
 
 ---
 
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
 
-
-I am a fourth year DPhil student in mathematics at 
-the University of Oxford as part of 
-[InFoMM](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt) (Centre for Doctoral Training in Industrially Focused Mathematical Modelling),
-the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
-and [St. Anne's College](http://www.st-annes.ox.ac.uk/home).
-
-My research is on **grid-free compressed sensing/super-resolution** and I am supervised by 
+I am a postdoctoral researcher at the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
+at the University of Cambridge, where I work on deconvolution for microscopy data. Previously, I was a doctoral student in the  [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
+and
+[InFoMM](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt) 
+at the University of Oxford under the supervision of 
 [Prof. Jared Tanner](https://people.maths.ox.ac.uk/tanner/) and 
-[Dr. Andrew Thompson](https://people.maths.ox.ac.uk/thompson/). The industrial parter for my research project is the 
+[Dr. Andrew Thompson](https://people.maths.ox.ac.uk/thompson/),
+in collaboration with the 
 [National Physical Laboratory](http://www.npl.co.uk/).
+My [thesis](Bogdan_Toader_thesis.pdf) was on grid-free compressed sensing/super-resolution.
 
-During the period October 2018 - March 2019 I am based at the 
-[Alan Turing Institute](https://www.turing.ac.uk)
-as an [enrichment student](https://www.turing.ac.uk/people/doctoral-students/bogdan-toader).
-
+During the period October 2018 - March 2019 I was an  
+enrichment student at the 
+[Alan Turing Institute](https://www.turing.ac.uk),
+the national institute for data science and artificial intelligence.
 
 Previously, I received a BSc in Computer Science and Mathematics from 
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
-My [CV](Bogdan_Toader_CV_Mar2019.pdf).
+
+My [CV](Bogdan_Toader_CV_Sep2020.pdf).
 
 ---
 
 ## Contact:
 
-**Bogdan Toader**  [toader@maths.ox.ac.uk](mailto:toader@maths.ox.ac.uk)</br>
-Mathematical Institute, University of Oxford </br>
-Andrew Wiles Building, Radcliffe Observatory Quarter</br>
-Woodstock Road, Oxford, OX2 6GG</br>
-**Office**: S2.35
+**Bogdan Toader**  [bt382@cam.ac.uk](mailto:bt382@cam.ac.uk)</br>
+Department of Physiology, Development and Neuroscience</br>
+Cambridge, CB2 3DY</br>
 
 
 

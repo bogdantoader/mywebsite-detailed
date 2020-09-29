@@ -12,9 +12,10 @@ it uses the correct one (...maths.ox.ac.uk...), then run
 `hugo --theme=hugo-xmin`
 
 which will generate all the files in the 'public' directory. Then simply
-copy those files to the server and access the website at
+copy those files to the github.io repo, push and 
+access the website at
 
-https://people.maths.ox.ac.uk/toader/
+https://bogdantoader.github.io
 
 The stuff to edit is in the 'content' folder.
 

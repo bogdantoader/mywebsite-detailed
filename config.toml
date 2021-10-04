@@ -23,10 +23,15 @@ theme = "hugo-xmin"
     url = "/teaching/"
     weight = 3
 [[menu.main]]
-    name = "Talks/Travelling"
-    url = "/travelling/"
+    name = "Talks"
+    url = "/talks/"
     weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
     description = "Bogdan Toader's academic website."
-    footer = "[Email](mailto:bt382@cam.ac.uk) | [Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |[LinkedIn](https://www.linkedin.com/in/bogdan-toader/) | [GitHub](https://github.com/bogdantoader)"
+    footer = "[Email](mailto:bogdan.toader@yale.edu) | [Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |[LinkedIn](https://www.linkedin.com/in/bogdan-toader/) | [GitHub](https://github.com/bogdantoader)"

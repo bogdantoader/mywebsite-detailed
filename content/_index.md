@@ -2,7 +2,7 @@
 Title: Bogdan Toader
 ---
 
-<img src="/img/uc-cmyk.eps" style="max-height:55px;min-width:40px;float:right;margin-right:12px;margin-bottom:17px;" alt="Cambridge logo" />
+<img src="/img/yale.png" style="max-height:80px;min-width:40px;float:right;margin-right:5px;margin-bottom:10px" alt="Yale logo" />
 
 
 # Bogdan Toader
@@ -12,9 +12,13 @@ Title: Bogdan Toader
 ---
 
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
+<!--<img src="/img/me.jpg" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />-->
 
-I am a postdoctoral researcher at the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
-at the University of Cambridge, where I work on deconvolution for microscopy data. Previously, I was a doctoral student in the  [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
+I am a postdoctoral researcher at the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University,
+where I work on algorithms for [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). 
+Previously, I was a postdoc in the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
+at the University of Cambridge, where I worked on deconvolution for microscopy data, 
+and a doctoral student in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
 and
 [InFoMM](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt) 
 at the University of Oxford under the supervision of 
@@ -33,15 +37,14 @@ Previously, I received a BSc in Computer Science and Mathematics from
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
 
-My [CV](Bogdan_Toader_CV_Sep2020.pdf).
+My [CV](Bogdan_Toader_CV_Oct2021.pdf).
 
 ---
 
 ## Contact:
 
-**Bogdan Toader**  [bt382@cam.ac.uk](mailto:bt382@cam.ac.uk)</br>
-Department of Physiology, Development and Neuroscience</br>
-Cambridge, CB2 3DY</br>
+**Bogdan Toader**  [bogdan.toader@yale.edu](mailto:bogdan.toader@yale.edu)</br>
+260 Whitney Avenue, New Haven, CT 06511</br>
 
 
 

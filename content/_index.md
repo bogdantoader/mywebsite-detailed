@@ -14,7 +14,8 @@ Title: Bogdan Toader
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
 <!--<img src="/img/me.jpg" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />-->
 
-I am a postdoctoral researcher at the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University,
+I am a postdoctoral researcher in the [Department of Statistics and Data Science](https://statistics.yale.edu)
+and the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University,
 where I work on algorithms for [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). 
 Previously, I was a postdoc in the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
 at the University of Cambridge, where I worked on deconvolution for microscopy data, 
@@ -28,7 +29,7 @@ in collaboration with the
 [National Physical Laboratory](http://www.npl.co.uk/).
 My [thesis](Bogdan_Toader_thesis.pdf) was on grid-free compressed sensing/super-resolution.
 
-During the period October 2018 - March 2019 I was an  
+During the period October 2018 - March 2019, I was an  
 enrichment student at the 
 [Alan Turing Institute](https://www.turing.ac.uk),
 the national institute for data science and artificial intelligence.

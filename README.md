@@ -7,7 +7,7 @@ While developing, run:
 which will start a server locally.
 
 To generate the website, change the baseUrl property in config.toml so that
-it uses the correct one (...maths.ox.ac.uk...), then run
+it uses the correct one (bogdantoader.github.io) then run
 
 `hugo --theme=hugo-xmin`
 

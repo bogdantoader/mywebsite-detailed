@@ -2,17 +2,25 @@
 Title: Talks
 ---
 
+### 2022
+
+* IPAM Seminar, **UCLA**, US -- _Oral presentation_
+
+* [SIAM Conference on Mathematics of Data Science (MDS22)](https://www.siam.org/conferences/cm/conference/mds22), **San Diego**, US -- _Poster presentation_
+
+* [PIMS Workshop on Mathematical and Computational Challenges in Cryo-EM](https://www.pims.math.ca/scientific-event/220505-mccceme), **Vancouver**, Canada -- _Oral presentation_
+
 ### 2021
 
-* [Focus on Microscopy 2021 Online Conference](http://focusonmicroscopy.org/2021/home.html), online -- _oral presentation_
+* [Focus on Microscopy 2021 Online Conference](http://focusonmicroscopy.org/2021/home.html), online -- _Oral presentation_
 
 ### 2020
 
-* [Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020](https://www.rms.org.uk/lsfm2020.html), **online** -- _oral presentation_
+* [Virtual 12th Light Sheet Fluorescence Microscopy Conference 2020](https://www.rms.org.uk/lsfm2020.html), **online** -- _Oral presentation_
 
-* [SIAM Conference on Imaging Science (IS20)](https://www.siam.org/conferences/cm/conference/is20), **online** -- _poster presentation_
+* [SIAM Conference on Imaging Science (IS20)](https://www.siam.org/conferences/cm/conference/is20), **online** -- _Poster presentation_
 
-* [Quantitative BioImaging Conference (QBI 2020)](https://www.quantitativebioimaging.com/qbi2020/), **Oxford**, UK -- _poster presentation_
+* [Quantitative BioImaging Conference (QBI 2020)](https://www.quantitativebioimaging.com/qbi2020/), **Oxford**, UK -- _Poster presentation_
 
 ### 2019
 
@@ -20,9 +28,9 @@ Title: Talks
   *Implemented deep learning based solution for image segmentation applied to brighfield microscopy data, 
   problem proposed by Dstl*
 
-* [International Conference on Continuous Optimization (ICCOPT 2019)](https://iccopt2019.berlin), **Berlin**, Germany -- _oral presentation_
+* [International Conference on Continuous Optimization (ICCOPT 2019)](https://iccopt2019.berlin), **Berlin**, Germany -- _Oral presentation_
 
-* [2019 13th International Conference on Sampling Theory and Applications (SampTA 2019)](https://sampta2019.sciencesconf.org), **Bordeaux**, France -- *oral presentation*
+* [2019 13th International Conference on Sampling Theory and Applications (SampTA 2019)](https://sampta2019.sciencesconf.org), **Bordeaux**, France -- *Oral presentation*
 
 * [Mathematics in Industry New Zealand Workshop](https://minz.org.nz/2019/), **Auckland**, New Zealand</br>
   *Implemented optimal transport based solution for decomposing spectrum of cheese samples into different components (fat, protein etc.), problem proposed by Fonterra*

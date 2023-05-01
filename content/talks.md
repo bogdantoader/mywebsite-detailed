@@ -2,6 +2,10 @@
 Title: Talks
 ---
 
+### 2023
+
+* [SIAM Conference on Computational Science and Engineering (CSE23)](https://www.siam.org/conferences/cm/conference/cse23), **Amsterdam**, The Netherlands – _Mini-symposium presentation_
+
 ### 2022
 
 * IPAM Seminar, **UCLA**, US -- _Oral presentation_

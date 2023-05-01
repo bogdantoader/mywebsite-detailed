@@ -7,15 +7,21 @@ Title: Publications
 <ol reversed>
 
   <li>
-    <a href="https://arxiv.org/pdf/2211.10744.pdf"><i>Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity</i></a></br>
-  B. Toader, F. J. Sigworth, R. R. Lederman</br>
-  submitted, arXiv:2211.10744, 2022
+    <a href="https://arxiv.org/pdf/2304.14248.pdf"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
+  R. R. Lederman, B. Toader</br>
+  Submitted, arXiv:2304.14248, 2023
   </li></br>
 
   <li>
-    <a href="https://arxiv.org/pdf/2211.10518.pdf"><i>Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models</i></a></br>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0022283623000761"><i>Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity</i></a></br>
+  B. Toader, F. J. Sigworth, R. R. Lederman</br>
+  Journal of Molecular Biology, 2023 
+  </li></br>
+
+  <li>
+    <a href="https://www.sciencedirect.com/science/article/pii/S0022283623000700"><i>Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models</i></a></br>
     M. Chen, B. Toader, R. R. Lederman</br>
-    submitted, arXiv:2211.10518, 2022
+    Journal of Molecular Biology, 2023
   </li></br>
 
   <li>
@@ -34,7 +40,7 @@ Title: Publications
   <li>
     <a href="https://arxiv.org/pdf/2007.02708.pdf"><i>The dual approach to non-negative super-resolution: perturbation analysis</i></a></br>
     S. Chrétien, A. Thompson, B. Toader</br>
-    submitted, arXiv:2007.02708, 2020
+    Submitted, arXiv:2007.02708, 2020
   </li></br>
 
   <li>

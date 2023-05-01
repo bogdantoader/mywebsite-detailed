@@ -29,7 +29,7 @@ in collaboration with the
 [National Physical Laboratory](http://www.npl.co.uk/).
 My [thesis](Bogdan_Toader_thesis.pdf) was on grid-free compressed sensing/super-resolution.
 
-During Sep 2022 - Dec 2022, I am a core participant of the 
+During Sep 2022 - Dec 2022, I was a core participant of the 
 [IPAM long program on computational microscopy](http://www.ipam.ucla.edu/programs/long-programs/computational-microscopy/) at UCLA, 
 and during October 2018 - March 2019, I was an  enrichment student at the 
 [Alan Turing Institute](https://www.turing.ac.uk),
@@ -39,7 +39,7 @@ Previously, I received a BSc in Computer Science and Mathematics from
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
 
-My [CV](Bogdan_Toader_CV_Nov2022.pdf).
+My [CV](Bogdan_Toader_CV_May2023.pdf).
 
 ---
 

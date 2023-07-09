@@ -2,24 +2,24 @@
 Title: Publications 
 ---
 
+## Academic articles
 
-</br>
 <ol reversed>
 
   <li>
-    <a href="https://arxiv.org/pdf/2304.14248.pdf"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
+    <a href="../papers/lederman_toader_plato.pdf"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
   R. R. Lederman, B. Toader</br>
-  Submitted, arXiv:2304.14248, 2023
+  International Conference on Sampling Theory and Applications (SampTA), 2023
   </li></br>
 
   <li>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0022283623000761"><i>Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity</i></a></br>
+    <a href="../papers/toader_conf.pdf"><i>Methods for Cryo-EM Single Particle Reconstruction of Macromolecules Having Continuous Heterogeneity</i></a></br>
   B. Toader, F. J. Sigworth, R. R. Lederman</br>
   Journal of Molecular Biology, 2023 
   </li></br>
 
   <li>
-    <a href="https://www.sciencedirect.com/science/article/pii/S0022283623000700"><i>Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models</i></a></br>
+    <a href="../papers/chen_gmm.pdf"><i>Integrating molecular models into CryoEM heterogeneity analysis using scalable high-resolution deep Gaussian mixture models</i></a></br>
     M. Chen, B. Toader, R. R. Lederman</br>
     Journal of Molecular Biology, 2023
   </li></br>
@@ -38,7 +38,7 @@ Title: Publications
   </li></br>
 
   <li>
-    <a href="https://arxiv.org/pdf/2007.02708.pdf"><i>The dual approach to non-negative super-resolution: perturbation analysis</i></a></br>
+    <a href="../papers/bt_superres_dual_pert_revised.pdf"><i>The dual approach to non-negative super-resolution: perturbation analysis</i></a></br>
     S. Chrétien, A. Thompson, B. Toader</br>
     Submitted, arXiv:2007.02708, 2020
   </li></br>
@@ -47,7 +47,7 @@ Title: Publications
     <a href="../papers/bt_sampta_dual_rec.pdf"><i>The dual approach to non-negative super-resolution: 
       impact on primal reconstruction accuracy</i></a></br>
     S. Chrétien, A. Thompson, B. Toader</br>
-    2019 13th International conference on Sampling Theory and Applications (SampTA), 2019
+    2019 13th International Conference on Sampling Theory and Applications (SampTA), 2019
   </li></br>
   <li>
     <a href="../papers/Guo2019_Article_GlobalAirTransportComplexNetwo.pdf"><i>Global air transport complex network: multi-scale analysis</i></a></br>
@@ -63,13 +63,43 @@ Title: Publications
   </li>
 </ol>
 
+## PhD Thesis 
 
-​     
+<ol>
+    <li>
+<a href="../Bogdan_Toader_thesis.pdf">Stability and perturbation analysis of non-negative super-resolution</a></br>
+    University of Oxford, Trinity term, 2019
+    </li>
+</ol>
 
-​     
+## Reports
+
+
+<ol reversed>
+  <li>
+    <a href="../papers/CMS2022-White-Paper.pdf"><i>
+    White Paper: Computational Microscopy
+    </i></a></br>
+    <a href="https://www.ipam.ucla.edu/programs/long-programs/computational-microscopy/">IPAM Long Program</a>, UCLA, US, Fall 2022
+  </li>
+  </li></br>
+  <li>
+    <a href="../papers/Data-study-group_Dstl-image-segmentation.pdf"><i>
+    Data Study Group Final Report: Dstl -- Bright-field image segmentation
+    </i></a></br>
+    Zenodo, <a href="https://zenodo.org/record/4452761">https://doi.org/10.5281/zenodo.4452761</a></br>
+    Alan Turing Institute, UK, December 2019</br>
+  </li>
+  </li></br>
+  <li>
+    <a href="../papers/sustainable-income-algorithm.pdf"><i>
+    Study Group Report: Sustainable Income Algorithm
+    </i></a></br>
+    Mathematics in Industry Reports, <a href="https://doi.org/10.33774/miir-2021-5wvbh">https://doi.org/10.33774/miir-2021-5wvbh</a></br>
+    European Study Group with Industry 142, Lithuania, June 2018 
+  </li>
+  </li></br>
+</ol>
 
 ​       
-
-
-
 

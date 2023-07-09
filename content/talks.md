@@ -4,6 +4,10 @@ Title: Talks
 
 ### 2023
 
+* [International Conference on Sampling Theory and Applications (SampTA 2023)](https://sampta2023.github.io), **Yale University**, US -- _Oral presentation_
+
+* [Flatiron Institute CryoEM Summer Workshop](https://www.simonsfoundation.org/event/cryoem-summer-workshop/), **New York**, US -- _Poster presentation_
+
 * [SIAM Conference on Computational Science and Engineering (CSE23)](https://www.siam.org/conferences/cm/conference/cse23), **Amsterdam**, The Netherlands – _Mini-symposium presentation_
 
 ### 2022

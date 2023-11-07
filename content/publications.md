@@ -7,7 +7,7 @@ Title: Publications
 <ol reversed>
 
   <li>
-    <a href="../papers/lederman_toader_plato.pdf"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
+    <a href="https://ieeexplore.ieee.org/document/10301403"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
   R. R. Lederman, B. Toader</br>
   International Conference on Sampling Theory and Applications (SampTA), 2023
   </li></br>

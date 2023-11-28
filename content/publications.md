@@ -7,6 +7,14 @@ Title: Publications
 <ol reversed>
 
   <li>
+    <a href="https://arxiv.org/abs/2311.16100"><i>
+    Efficient high-resolution refinement in cryo-EM with stochastic gradient descent
+    </i></a></br>
+    B. Toader, M. A. Brubaker, R. R. Lederman </br>
+    arXiv:2311.16100, 2023
+  </li></br>
+
+  <li>
     <a href="https://ieeexplore.ieee.org/document/10301403"><i>On Manifold Learning in Plato's Cave: Remarks on Manifold Learning and Physical Phenomena</i></a></br>
   R. R. Lederman, B. Toader</br>
   International Conference on Sampling Theory and Applications (SampTA), 2023

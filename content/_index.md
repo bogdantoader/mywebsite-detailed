@@ -14,12 +14,15 @@ Title: Bogdan Toader
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
 <!--<img src="/img/me.jpg" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />-->
 
-I am a postdoctoral researcher in the [Department of Statistics and Data Science](https://statistics.yale.edu)
-and the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University,
-where I work on algorithms for [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). 
-Previously, I was a postdoc in the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
-at the University of Cambridge, where I worked on deconvolution for microscopy data, 
-and a doctoral student in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
+I am a postdoctoral scientist at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk), developing computational methods for [cryo-ET](https://en.wikipedia.org/wiki/Cryogenic_electron_tomography) as part of the groups of Dr Sjors Scheres and Dr Tanmay Bharat in the Division of Structural Studies.
+
+Previously:
+  * Postdoc in the [Department of Statistics and Data Science](https://statistics.yale.edu)
+and the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University:
+algorithms for [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). 
+  * Postdoc in the [Cambridge Advanced Imaging Centre](https://caic.bio.cam.ac.uk) 
+at the University of Cambridge: deconvolution for microscopy data, 
+  * DPhil in the [Numerical Analysis Group](https://www.maths.ox.ac.uk/groups/numerical-analysis)
 and
 [InFoMM](https://www.maths.ox.ac.uk/study-here/postgraduate-study/industrially-focused-mathematical-modelling-epsrc-cdt) 
 at the University of Oxford under the supervision of 
@@ -39,14 +42,13 @@ Previously, I received a BSc in Computer Science and Mathematics from
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
 
-My [CV](Bogdan_Toader_CV_Nov2023.pdf).
+My [CV](Bogdan_Toader_CV_Mar2024.pdf).
 
 ---
 
 ## Contact:
 
-**Bogdan Toader**  [bogdan.toader@yale.edu](mailto:bogdan.toader@yale.edu)</br>
-260 Whitney Avenue, New Haven, CT 06511</br>
+**Bogdan Toader**  [btoader@mrc-lmb.cam.ac.uk](mailto:btoader@mrc-lmb.cam.ac.uk)</br>
 
 
 

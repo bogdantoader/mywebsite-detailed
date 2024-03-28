@@ -2,19 +2,17 @@
 Title: Bogdan Toader
 ---
 
-<img src="/img/yale.png" style="max-height:80px;min-width:40px;float:right;margin-right:5px;margin-bottom:10px" alt="Yale logo" />
-
+<img src="/img/lmb-logo.png" style="max-height:107px;min-width:40px;float:right;margin-right:5px;margin-bottom:0px; margin-top:-6px" alt="LMB logo" />
 
 # Bogdan Toader
-### Postdoctoral Research Associate 
-
+### Postdoctoral Scientist  
 
 ---
 
 <img src="/img/me_square.png" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />
 <!--<img src="/img/me.jpg" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />-->
 
-I am a postdoctoral scientist at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk), developing computational methods for [cryo-ET](https://en.wikipedia.org/wiki/Cryogenic_electron_tomography) as part of the groups of Dr Sjors Scheres and Dr Tanmay Bharat in the Division of Structural Studies.
+I am a postdoctoral scientist at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk), developing computational methods for [cryo-ET](https://en.wikipedia.org/wiki/Cryogenic_electron_tomography) in the groups of Dr Sjors Scheres and Dr Tanmay Bharat in the Division of Structural Studies.
 
 Previously:
   * Postdoc in the [Department of Statistics and Data Science](https://statistics.yale.edu)

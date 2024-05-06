@@ -14,7 +14,7 @@ Title: Bogdan Toader
 
 I am a postdoctoral scientist at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk), developing computational methods for [cryo-ET](https://en.wikipedia.org/wiki/Cryogenic_electron_tomography) in the groups of Dr Sjors Scheres and Dr Tanmay Bharat in the Division of Structural Studies.
 
-Previously:
+Previous positions:
   * Postdoc in the [Department of Statistics and Data Science](https://statistics.yale.edu)
 and the [Quantitative Biology Institute](https://qbio.yale.edu) at Yale University:
 algorithms for [cryo-EM](https://en.wikipedia.org/wiki/Cryogenic_electron_microscopy). 
@@ -40,7 +40,7 @@ Previously, I received a BSc in Computer Science and Mathematics from
 the University of Manchester and I worked for three years
 as a software developer in the financial sector in London.
 
-My [CV](Bogdan_Toader_CV_Mar2024.pdf).
+My [CV](Bogdan_Toader_CV_May2024.pdf).
 
 ---
 

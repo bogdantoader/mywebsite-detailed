@@ -7,6 +7,15 @@ Title: Publications
 <ol reversed>
 
   <li>
+    <a href="https://www.biorxiv.org/content/10.1101/2024.04.26.591129v1.abstract"><i>
+    An image processing pipeline for electron cryo-tomography in RELION-5
+    </i></a></br>
+    A. Burt, B. Toader, R. Warshamanage, A. von Kügelgen, E. Pyle, J. Zivanov, D. Kimanius, T.A.M. Bharat,  S.H.W. Scheres
+    </br>
+    bioRxiv: https://doi.org/10.1101/2024.04.26.591129, 2024
+  </li></br>
+
+  <li>
     <a href="https://arxiv.org/abs/2311.16100"><i>
     Efficient high-resolution refinement in cryo-EM with stochastic gradient descent
     </i></a></br>

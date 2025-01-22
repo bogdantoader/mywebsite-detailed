@@ -21,13 +21,13 @@ Title: Bogdan Toader
 
 <i class="ai ai-google-scholar ai-x"></i>
 [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
-<i class="fa-brands fa-github fa-x"></i>
+<span style="color: #202328;"><i class="fa-brands fa-github fa-x"></i></span>
 [GitHub](https://github.com/bogdantoader) |
-<i class="ai ai-orcid ai-x"></i>
-[ORCiD](https://orcid.org/0000-0001-5444-2179) |
-<i class="fa-brands fa-linkedin"></i>
+<span style="color: #A6CE3A;"><i class="ai ai-orcid ai-x"></i></span>
+[ORCID](https://orcid.org/0000-0001-5444-2179) |
+<span style="color: #0B66C2;"><i class="fa-brands fa-linkedin"></i></span>
 [LinkedIn](https://www.linkedin.com/in/bogdan-toader/) |
-<i class="fa-brands fa-bluesky"></i>
+<span style="color: #0285FF;"><i class="fa-brands fa-bluesky"></i></span>
 [Bluesky](https://bsky.app/profile/btoader.com)
 
 ---

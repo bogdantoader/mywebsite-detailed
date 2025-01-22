@@ -2,13 +2,13 @@
 Title: Bogdan Toader
 ---
 
-<img src="/img/lmb-logo.png" alt="LMB logo" />
+<img src="/img/lmb-logo.png" id="lmb-logo" alt="LMB logo"/>
 
 # Bogdan Toader
 
 ### Postdoctoral Scientist, MRC Laboratory of Molecular Biology
 
-<img src="/img/me_cropped_2.jpg" alt="Bogdan" />
+<img src="/img/me_cropped_2.jpg" id="my-photo" alt="Bogdan"/>
 
 **Research interests:** 
 

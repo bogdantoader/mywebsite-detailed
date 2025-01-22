@@ -65,7 +65,7 @@ a:visited {color:#1527AC;} /* visited link is black (reverse the color back to b
 a:hover {color:blue ; text-decoration: underline} /* visited link is black (reverse the color back to black)*/
 
 
-img[src*="logo"] {
+#lmb-logo {
   /* max-height:80px; */
   /* max-width: 40%; */
   width: 30%;
@@ -76,7 +76,7 @@ img[src*="logo"] {
   margin-top: -1.8% 
 }
 
-img[src*="me_cropped"] {
+#my-photo {
   width: 21%;
   float: left;
   margin-top: 0%;
@@ -87,7 +87,7 @@ img[src*="me_cropped"] {
 }
 
 @media (max-width: 600px) {
-  img[src*="me_cropped"] {
+  #my-photo {
     /* // Override width to show only one image in a row on smaller screens */
     width: 36%;
     margin-top: 0%;
@@ -97,7 +97,7 @@ img[src*="me_cropped"] {
     border-radius:5%;
   }
 
-  img[src*="logo"] {
+  #lmb-logo {
     /* // Override width to show only one image in a row on smaller screens */
     width: 40%;
     margin-top: 0%;

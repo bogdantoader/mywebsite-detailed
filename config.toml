@@ -2,7 +2,6 @@ languageCode = "en-us"
 title = "Bogdan Toader"
 author = "Bogdan Toader"
 baseURL = "https://btoader.com"
-#baseURL = "www.mywebsite.com"
 canonifyurls = true
 theme = "hugo-xmin"
 
@@ -11,21 +10,33 @@ theme = "hugo-xmin"
     note = "/note/:year/:month/:day/:slug/"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
+    name = "About"
+    url = "/#about"
     weight = 1
+# [[menu.main]]
+#     name = "Publications"
+#     url = "/publications/"
+#     weight = 2
 [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
+    name = "Research"
+    url = "/#research"
     weight = 2
-[[menu.main]]
-    name = "Teaching"
-    url = "/teaching/"
-    weight = 3
+# [[menu.main]]
+#     name = "Teaching"
+#     url = "/teaching/"
+#     weight = 3
 [[menu.main]]
     name = "Talks"
-    url = "/talks/"
+    url = "/#talks"
     weight = 4
+[[menu.main]]
+    name = "Industry"
+    url = "/#industry-engagement"
+    weight = 5
+[[menu.main]]
+    name = "CV"
+    url = "Bogdan_Toader_CV_May2024.pdf"
+    weight = 6
 
 [markup]
   [markup.goldmark]
@@ -34,4 +45,4 @@ theme = "hugo-xmin"
 
 [params]
     description = "Bogdan Toader's academic website."
-    footer = "[Email](mailto:btoader@mrc-lmb.cam.ac.uk) | [Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |[LinkedIn](https://www.linkedin.com/in/bogdan-toader/) | [GitHub](https://github.com/bogdantoader)"
+    footer = "© 2018-2025 Bogdan Toader. Powered by Hugo XMin"

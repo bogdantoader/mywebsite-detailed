@@ -22,6 +22,14 @@ hr {
   color: #ddd;
 }
 
+/* h2 header (i.e. ## in markdown) */
+h2 {
+  text-decoration: none;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /* code */
 pre {
   border: 1px solid #ddd;

@@ -3,13 +3,14 @@ Title: Bogdan Toader
 ---
 
 
-<img src="/img/lmb-logo.png" style="max-height:90px;min-width:40px;float:right;margin-right:0px;margin-bottom:0px; margin-top:-14px" alt="LMB logo" />
+<img src="/img/lmb-logo.png" style="max-height:80px;min-width:40px;float:right;margin-right:0px;margin-bottom:0px; margin-top:-14px" alt="LMB logo" />
 
 # Bogdan Toader
 
 ### Postdoctoral Scientist, MRC Laboratory of Molecular Biology
 
-<img src="/img/me_cropped_2.jpg" style="max-width:18%;min-width:40px;float:right;margin-right:11%;border-radius:8%" alt="Bogdan" />
+<!-- <img src="/img/me_cropped_2.jpg" style="max-width:18%;min-width:40px;float:left;margin-right:5%;border-radius:5%" alt="Bogdan" /> -->
+<img src="/img/me_cropped_2.jpg" style="max-width:150px;min-width:40px;float:left;margin-right:30px;border-radius:5%" alt="Bogdan" />
 
 <!-- [CV](Bogdan_Toader_CV_May2024.pdf) -->
 
@@ -70,7 +71,7 @@ For a complete list of publications, see [Google Scholar](https://scholar.google
 <!-- **TODO**:  -->
 <!-- 1. add the journal pdfs to the repo and link directly to the papers here (and the DOI links) -->
 <!-- 2. add a quick summary of each paper  -->
-<!-- 3. add links to the code (GitHub) and data (Zenodo) if available  -->
+<!-- 3. add links to the code (GitHub), data (Zenodo), documentation if available -->
 <!-- 4. add links to the slides and talks if available in the section below (maybe the talks section is then redundant?) -->
 <!-- 5. add a representative image for each paper -->
  

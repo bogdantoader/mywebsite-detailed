@@ -17,6 +17,7 @@ body {
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
+footer { color: #999; }
 hr {
   border-style: dashed;
   color: #ddd;
@@ -57,3 +58,52 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee }
+
+/* Link colours */
+a:link {color:#1527AC; text-decoration: none}    /* unvisited link is black*/
+a:visited {color:#1527AC;} /* visited link is black (reverse the color back to black)*/
+a:hover {color:blue ; text-decoration: underline} /* visited link is black (reverse the color back to black)*/
+
+
+img[src*="logo"] {
+  /* max-height:80px; */
+  /* max-width: 40%; */
+  width: 30%;
+  float:right;
+  margin-left:0%;
+  margin-right:0%;
+  margin-bottom:0%; 
+  margin-top: -1.8% 
+}
+
+img[src*="me_cropped"] {
+  width: 21%;
+  float: left;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 4%;
+  border-radius: 5%;
+}
+
+@media (max-width: 600px) {
+  img[src*="me_cropped"] {
+    /* // Override width to show only one image in a row on smaller screens */
+    width: 36%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    margin-left: 32%;
+    margin-right: 32%;
+    border-radius:5%;
+  }
+
+  img[src*="logo"] {
+    /* // Override width to show only one image in a row on smaller screens */
+    width: 40%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    margin-left: 31%;
+    margin-right: 29%;
+    border-radius:5%;
+  }
+}

@@ -2,40 +2,37 @@
 Title: Bogdan Toader
 ---
 
-
-<img src="/img/lmb-logo.png" style="max-height:80px;min-width:40px;float:right;margin-right:0px;margin-bottom:0px; margin-top:-14px" alt="LMB logo" />
+<img src="/img/lmb-logo.png" alt="LMB logo" />
 
 # Bogdan Toader
 
 ### Postdoctoral Scientist, MRC Laboratory of Molecular Biology
 
-<!-- <img src="/img/me_cropped_2.jpg" style="max-width:18%;min-width:40px;float:left;margin-right:5%;border-radius:5%" alt="Bogdan" /> -->
-<img src="/img/me_cropped_2.jpg" style="max-width:150px;min-width:40px;float:left;margin-right:30px;border-radius:5%" alt="Bogdan" />
-
-<!-- [CV](Bogdan_Toader_CV_May2024.pdf) -->
+<img src="/img/me_cropped_2.jpg" alt="Bogdan" />
 
 **Research interests:** 
+
 * computational imaging and image processing for cryo-EM and cryo-ET
 * machine learning for scientific discovery, aka "AI 4 science"
 * computer vision, inverse problems, optimisation, numerical analysis
 
+<i class="fa-solid fa-envelope"></i> Email: [`btoader@mrc-lmb.cam.ac.uk`](mailto:btoader@mrc-lmb.cam.ac.uk) </br>
+<i class="fa-solid fa-file"></i>&nbsp; Curriculum Vitae: [May 2024](Bogdan_Toader_CV_May2024.pdf)
 
-[Email](mailto:btoader@mrc-lmb.cam.ac.uk) | 
+<i class="ai ai-google-scholar ai-x"></i>
 [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
+<i class="fa-brands fa-github fa-x"></i>
 [GitHub](https://github.com/bogdantoader) |
+<i class="ai ai-orcid ai-x"></i>
 [ORCiD](https://orcid.org/0000-0001-5444-2179) |
+<i class="fa-brands fa-linkedin"></i>
 [LinkedIn](https://www.linkedin.com/in/bogdan-toader/) |
+<i class="fa-brands fa-bluesky"></i>
 [Bluesky](https://bsky.app/profile/btoader.com)
 
-
-[Curriculum Vitae](Bogdan_Toader_CV_May2024.pdf)
-
-
 ---
+
 ## About 
-
-<!--<img src="/img/me.jpg" style="max-width:25%;min-width:40px;float:left;margin-right:5%;border-radius:4%" alt="Bogdan" />-->
-
 
 I am a postdoctoral scientist at the [MRC Laboratory of Molecular Biology](https://www2.mrc-lmb.cam.ac.uk), developing computational methods for [cryo-ET](https://en.wikipedia.org/wiki/Cryogenic_electron_tomography) in the groups of [Dr Sjors Scheres](https://www2.mrc-lmb.cam.ac.uk/groups/scheres/) and [Dr Tanmay Bharat](https://www2.mrc-lmb.cam.ac.uk/groups/bharat/).
 
@@ -56,13 +53,13 @@ in collaboration with the
   * Core participant of the 
 [IPAM long program on computational microscopy](http://www.ipam.ucla.edu/programs/long-programs/computational-microscopy/) at UCLA and an enrichment student at the 
 [Alan Turing Institute](https://www.turing.ac.uk)
-  <!-- * BSc in Computer Science and Mathematics, University of Manchester  -->
-  <!-- * Software developer in the financial sector in London -->
+  * BSc Computer Science and Mathematics, University of Manchester
 
 ---
+
 ## Research 
 
-For a complete list of publications, see [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en).
+For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"></i> Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en).
 
 ---
 
@@ -129,9 +126,10 @@ For a complete list of publications, see [Google Scholar](https://scholar.google
 </ul>
 
 ---
+
 ## Talks
 
-For a complete list of talks, see [CV](Bogdan_Toader_CV_May2024.pdf).
+For a complete list of talks, see [<i class="fa-solid fa-file"></i> CV](Bogdan_Toader_CV_May2024.pdf).
 
 ---
 
@@ -143,6 +141,7 @@ TODO
 <!-- or at least mention that the slides are below -->
 
 ---
+
 ## Industry engagement
 
 TODO

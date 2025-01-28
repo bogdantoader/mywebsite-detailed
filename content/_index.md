@@ -66,22 +66,21 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 ### Selected publications:
 
 <!-- **TODO**:  -->
-<!-- 1. add the journal pdfs to the repo and link directly to the papers here (and the DOI links) -->
+<!-- 1. add the journal pdfs to the repo and link directly to the papers here, and also add the DOI links separately) -->
 <!-- 2. add a quick summary of each paper  -->
 <!-- 3. add links to the code (GitHub), data (Zenodo), documentation if available -->
 <!-- 4. add links to the slides and talks if available in the section below (maybe the talks section is then redundant?) -->
 <!-- 5. add a representative image for each paper -->
  
-<!-- <ol reversed> -->
 <ul>
 
   <li>
-    <a href="https://www.biorxiv.org/content/10.1101/2024.04.26.591129v1.abstract"><i>
+    <a href="https://doi.org/10.1002/2211-5463.13873"><i>
     An image processing pipeline for electron cryo-tomography in RELION-5
     </i></a></br>
     A. Burt, <b>B. Toader</b>, R. Warshamanage, A. von Kügelgen, E. Pyle, J. Zivanov, D. Kimanius, T.A.M. Bharat,  S.H.W. Scheres
     </br>
-    bioRxiv: https://doi.org/10.1101/2024.04.26.591129, 2024
+    FEBS Open Bio, 2024
   </li></br>
 
   <li>
@@ -127,27 +126,41 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 
 ---
 
-## Talks
+## Industry engagement 
 
-For a complete list of talks, see [<i class="fa-solid fa-file"></i> CV](Bogdan_Toader_CV_May2024.pdf).
+* **Data Study Group, Alan Turing Institute** UK, Dec 2019 <br>
+  Implemented deep learning approach to image segmentation of bright-field microscopy data, problem proposed by the Dstl.<br>
+  *[Report: Dstl – Bright-field image segmentation, https://doi.org/10.5281/zenodo.4452761](https://doi.org/10.5281/zenodo.4452761)*
 
----
+* **Mathematics in Industry New Zealand Workshop** New Zealand, Jun 2019 <br>
+  Applied optimal transport solution to decompose the spectrum of cheese samples into different components (fat, protein etc.).<br>
 
-### Selected talks:
+* **142nd European Study Group with Industry** Lithuania, Jun 2018 <br>
+  Worked on predicting the sustainable income of loan applicants according to central bank rules. <br>
+  *[Report: Sustainable income algorithm, https://doi.org/10.33774/miir-2021-5wvbh](https://doi.org/10.33774/miir-2021-5wvbh)*
 
-TODO
+* **Data Study Group, Alan Turing Institute** UK, Dec 2016 <br>
+  Implemented network model for the analysis and prediction of air traffic, problem proposed by Airbus. <br>
+  *[Scientific article: Global air transport complex network: multi-scale analysis, https://doi.org/10.1007/s42452-019-0702-2](https://doi.org/10.1007/s42452-019-0702-2)*
 
-<!-- **TODO:** add a good set of slides for each paper above and then link to these slides in the paper entries above maybe -->
-<!-- or at least mention that the slides are below -->
+* **InFoMM Mini-Project, Culham Centre for Fusion Energy** UK, Jul-Sep 2016 <br>
+  Investigated numerical methods for computing multiple periodic solutions to a system of ODEs describing the behaviour of plasma. <br>
+  *[Report: Deflating Magnetic Oscillations](https://www.maths.ox.ac.uk/system/files/attachments/Toader%20CCFE%20MP2.pdf)*
 
----
+* **InFoMM Mini-Project, National Physical Laboratory** UK, May-Jul 2016 <br>
+  Analysed how compressed sensing can be applied to the problem of ship localisation from measurements of the sound in the shipping lane. <br>
+  *[Report: Source Reconstruction from Hydrophone Data](https://www.maths.ox.ac.uk/system/files/attachments/Toader%20NPL%20MP1_0.pdf)*
 
-## Industry engagement
+* **116th European Study Group with Industry** UK, May 2016 <br>
+  Implemented mixed integer programming solution to the problem of scheduling field trials proposed by Syngenta. <br>
 
-TODO
+<!-- ## Talks -->
+<!-- For a complete list of talks I gave, see [<i class="fa-solid fa-file"></i> CV](Bogdan_Toader_CV_May2024.pdf). -->
 
-<!-- **TODO**: add some of the things from the MC CV here -->
-<!---->
+<!-- ### Selected talks: -->
+
+<!-- **TODO:** add a good set of slides for each paper above and then link to these slides in the paper entries above maybe --> 
+<!-- or at least mention that the slides are below --> 
+
+
 <!-- **CV TODO:** Update the CV - put the content and sections from the MC one to my latex template. -->
-
-

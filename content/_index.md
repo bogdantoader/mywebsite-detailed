@@ -6,7 +6,8 @@ Title: Bogdan Toader
 
 # Bogdan Toader
 
-### Postdoctoral Scientist, MRC Laboratory of Molecular Biology
+<!-- ### Postdoctoral Scientist, MRC Laboratory of Molecular Biology -->
+### Marie Skłodowska-Curie (MSCA) Postdoctoral Fellow </br> MRC Laboratory of Molecular Biology
 
 <img src="/img/me_cropped_2.jpg" id="my-photo" alt="Bogdan"/>
 
@@ -17,7 +18,7 @@ Title: Bogdan Toader
 * computer vision, inverse problems, optimisation, numerical analysis
 
 <i class="fa-solid fa-envelope"></i> Email: [`btoader@mrc-lmb.cam.ac.uk`](mailto:btoader@mrc-lmb.cam.ac.uk) </br>
-<i class="fa-solid fa-file"></i>&nbsp; Curriculum Vitae: [May 2024](Bogdan_Toader_CV_May2024.pdf)
+<i class="fa-solid fa-file"></i>&nbsp; Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
 
 <i class="ai ai-google-scholar ai-x"></i>
 [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
@@ -75,20 +76,22 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 <ul>
 
   <li>
+    <a href="https://doi.org/10.1107/S205979832500511X"><i>
+    Efficient high-resolution refinement in cryo-EM with stochastic gradient descent
+    </i></a></br>
+    <b>B. Toader</b>, M. A. Brubaker, R. R. Lederman </br>
+    Acta Crystallographica Section D Structural Biology, 2025
+    </br>
+    <a href="https://arxiv.org/abs/2311.16100"><i>arXiv:2311.16100</i></a>
+  </li></br>
+
+  <li>
     <a href="https://doi.org/10.1002/2211-5463.13873"><i>
     An image processing pipeline for electron cryo-tomography in RELION-5
     </i></a></br>
     A. Burt, <b>B. Toader</b>, R. Warshamanage, A. von Kügelgen, E. Pyle, J. Zivanov, D. Kimanius, T.A.M. Bharat,  S.H.W. Scheres
     </br>
     FEBS Open Bio, 2024
-  </li></br>
-
-  <li>
-    <a href="https://arxiv.org/abs/2311.16100"><i>
-    Efficient high-resolution refinement in cryo-EM with stochastic gradient descent
-    </i></a></br>
-    <b>B. Toader</b>, M. A. Brubaker, R. R. Lederman </br>
-    arXiv:2311.16100, 2023
   </li></br>
 
   <li>
@@ -154,13 +157,3 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 * **116th European Study Group with Industry** UK, May 2016 <br>
   Implemented mixed integer programming solution to the problem of scheduling field trials proposed by Syngenta. <br>
 
-<!-- ## Talks -->
-<!-- For a complete list of talks I gave, see [<i class="fa-solid fa-file"></i> CV](Bogdan_Toader_CV_May2024.pdf). -->
-
-<!-- ### Selected talks: -->
-
-<!-- **TODO:** add a good set of slides for each paper above and then link to these slides in the paper entries above maybe --> 
-<!-- or at least mention that the slides are below --> 
-
-
-<!-- **CV TODO:** Update the CV - put the content and sections from the MC one to my latex template. -->

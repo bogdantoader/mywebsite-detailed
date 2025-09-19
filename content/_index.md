@@ -1,12 +1,11 @@
 ---
 Title: Bogdan Toader
 ---
-
-<img src="/img/lmb-logo.png" id="lmb-logo" alt="LMB logo"/>
+<a name="top"></a>
+<img src="/img/lmb-logo-transparent.png" id="lmb-logo" alt="LMB logo"/>
 
 # Bogdan Toader
 
-<!-- ### Postdoctoral Scientist, MRC Laboratory of Molecular Biology -->
 ### Marie Skłodowska-Curie (MSCA) Postdoctoral Fellow </br> MRC Laboratory of Molecular Biology
 
 <img src="/img/me_cropped_2.jpg" id="my-photo" alt="Bogdan"/>
@@ -18,20 +17,19 @@ Title: Bogdan Toader
 * computer vision, inverse problems, optimisation, numerical analysis
 
 <i class="fa-solid fa-envelope"></i> Email: [`btoader@mrc-lmb.cam.ac.uk`](mailto:btoader@mrc-lmb.cam.ac.uk) </br>
-<i class="fa-solid fa-file"></i>&nbsp; Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
+<i class="fa-solid fa-file"></i> Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
 
 <i class="ai ai-google-scholar ai-x"></i>
 [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
-<span style="color: #202328;"><i class="fa-brands fa-github fa-x"></i></span>
+<span style="color: #202328; opacity: 1"><i class="fa-brands fa-github fa-x"></i></span>
 [GitHub](https://github.com/bogdantoader) |
-<span style="color: #A6CE3A;"><i class="ai ai-orcid ai-x"></i></span>
+<span style="color: #A6CE3A; opacity: 1"><i class="ai ai-orcid ai-x"></i></span>
 [ORCID](https://orcid.org/0000-0001-5444-2179) |
-<span style="color: #0B66C2;"><i class="fa-brands fa-linkedin"></i></span>
+<span style="color: #0B66C2; opacity: 1"><i class="fa-brands fa-linkedin"></i></span>
 [LinkedIn](https://www.linkedin.com/in/bogdan-toader/) |
-<span style="color: #0285FF;"><i class="fa-brands fa-bluesky"></i></span>
+<span style="color: #0285FF; opacity: 1"><i class="fa-brands fa-bluesky"></i></span>
 [Bluesky](https://bsky.app/profile/btoader.com)
 
----
 
 ## About 
 
@@ -56,22 +54,20 @@ in collaboration with the
 [Alan Turing Institute](https://www.turing.ac.uk)
   * BSc Computer Science and Mathematics, University of Manchester
 
----
 
 ## Research 
 
 For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"></i> Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en).
 
----
 
 ### Selected publications:
 
 <!-- **TODO**:  -->
 <!-- 1. add the journal pdfs to the repo and link directly to the papers here, and also add the DOI links separately) -->
-<!-- 2. add a quick summary of each paper  -->
+<!-- 2. add a quick summary of each paper, maybe  -->
 <!-- 3. add links to the code (GitHub), data (Zenodo), documentation if available -->
-<!-- 4. add links to the slides and talks if available in the section below (maybe the talks section is then redundant?) -->
-<!-- 5. add a representative image for each paper -->
+<!-- 4. add links to the slides and talks if available  -->
+<!-- 5. add a representative image for each paper, or not really -->
  
 <ul>
 
@@ -127,7 +123,6 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
   </li></br>
 </ul>
 
----
 
 ## Industry engagement 
 
@@ -157,3 +152,4 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 * **116th European Study Group with Industry** UK, May 2016 <br>
   Implemented mixed integer programming solution to the problem of scheduling field trials proposed by Syngenta. <br>
 
+[back to top](#top)

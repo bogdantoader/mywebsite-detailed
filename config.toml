@@ -11,7 +11,8 @@ theme = "hugo-xmin"
 
 [[menu.main]]
     name = "About"
-    url = "/#about"
+    # url = "/#about"
+    url = "/"
     weight = 1
 # [[menu.main]]
 #     name = "Publications"

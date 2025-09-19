@@ -1,5 +1,11 @@
 body {
+  font-family: "Courier", monospace;
+  letter-spacing: -0.5px;
+  font-size: 15px;
+}
+h1, h2, h3 {
   font-family: Optima, Candara, Calibri, Arial, sans-serif;
+  letter-spacing: 0px;
 }
 code {
   font-family: "Lucida Console", Monaco, monospace;

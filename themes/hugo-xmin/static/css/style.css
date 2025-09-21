@@ -1,8 +1,33 @@
 body {
+  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
+  --text: black;
+  --text-link: blue;
+  --text-hover: #FB00FF;
   max-width: 800px;
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
+  background: var(--bg);
+  color: var(--text);
+} 
+
+/* Colours theme -- same as the default settings */
+body.theme1 {
+  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
+  --text: black;
+}
+
+/* Dark theme */
+body.theme2 {
+  --bg: linear-gradient(-30deg, rgba(55, 0, 90, 1) 20%, rgba(0, 10, 87, 1) 50%, rgba(0, 0, 0, 1) 90%);
+  --text: rgba(230, 230, 230, 1);
+  --text-link: rgba(253, 29, 29, 1);
+}
+
+/* Plain light theme */
+body.theme3 {
+  --bg: white;
+  --text: black;
 }
 
 /* header and footer areas */
@@ -10,23 +35,51 @@ body {
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  background: #eee;
-  padding: 5px;
+  /* background: #eee; */
+  background: rgba(0, 225, 255, 1);
+  background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
+  padding: 7px;
   border-radius: 5px;
+  /* border: 2px solid rgba(251, 0, 255, 1); */
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
-footer { color: #999; }
-hr {
-  border-style: dashed;
-  color: #ddd;
+footer { 
+  /* color: #999;  */
+  color: var(--text);
+  /* color: rgba(0, 225, 255, 0.9); */
 }
+hr {
+  /* border-style: dashed; */
+  /* color: #ddd; */
+  /* color: rgba(251,0,255,0.5); */
+  border: none;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  border-radius: 5px;
+}
+
+/* By default, color in CSS can't take a gradient, but background-clip: text does the trick */
+h1 {
+  margin-top: 0.3%;
+  margin-bottom: 0%;
+  line-height: 1.2; /* so that the g isn't clipped by background-clip */
+  display: inline-block; /* shrink to text width */
+  background: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
+  -webkit-background-clip: text;  /* Safari/Chrome */
+  -webkit-text-fill-color: transparent; /* Safari/Chrome */
+  background-clip: text; /* Standard (not supported in Firefox yet without prefix) */
+  color: black; /* fallback */
+}
+
 
 /* h2 header (i.e. ## in markdown) */
 h2 {
+  color: black;
   text-decoration: none;
-  background: #eee;
+  /* background: #eee; */
+  background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
   padding: 10px;
   border-radius: 5px;
 }
@@ -38,7 +91,12 @@ pre {
   padding: 1em;
   overflow-x: auto;
 }
-code { background: #f9f9f9; }
+code { 
+  /* background: #f9f9f9;  */
+  /* color: rgba(251, 0, 255, 1); */
+  color: black;
+  background: rgba(0, 225, 255, 1);
+}
 pre code { background: none; }
 
 /* misc elements */
@@ -60,10 +118,13 @@ th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee }
 
 /* Link colours */
-a:link {color:#1527AC; text-decoration: none}    /* unvisited link is black*/
-a:visited {color:#1527AC;} /* visited link is black (reverse the color back to black)*/
-a:hover {color:blue ; text-decoration: underline} /* visited link is black (reverse the color back to black)*/
+/* a:link {color:#1527AC; text-decoration: none}     */
+/* a:visited {color:#1527AC;}  /* same colour as before visiting */
+a:link {color:var(--text-link); text-decoration: none}    
+a:visited {color:var(--text-link);}  /* same colour as before visiting */
+a:hover {color:var(--text-hover); text-decoration: underline} /* visited link is black (reverse the color back to black)*/
 
+a[name="switchtheme"] {float:right}
 
 #lmb-logo {
   /* max-height:80px; */
@@ -73,11 +134,12 @@ a:hover {color:blue ; text-decoration: underline} /* visited link is black (reve
   margin-left:0%;
   margin-right:0%;
   margin-bottom:0%; 
-  margin-top: -1.8% 
+  margin-top: -2.85% 
+  /* margin-top: 0%  */
 }
 
 #my-photo {
-  width: 21%;
+  width: 19%;
   float: left;
   margin-top: 0%;
   margin-bottom: 0%;
@@ -89,7 +151,7 @@ a:hover {color:blue ; text-decoration: underline} /* visited link is black (reve
 @media (max-width: 600px) {
   #my-photo {
     /* // Override width to show only one image in a row on smaller screens */
-    width: 36%;
+    width: 30%;
     margin-top: 0%;
     margin-bottom: 3%;
     margin-left: 32%;
@@ -106,4 +168,21 @@ a:hover {color:blue ; text-decoration: underline} /* visited link is black (reve
     margin-right: 29%;
     border-radius:5%;
   }
+}
+
+
+/* Make the theme switcher look like plain text */
+.theme-button {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: var(--text-link);  /* your theme link color */
+  cursor: pointer;
+  text-decoration: underline; /* optional, like a link */
+}
+
+.theme-button:hover {
+  color: var(--text-hover, blue);
+  text-decoration: underline;
 }

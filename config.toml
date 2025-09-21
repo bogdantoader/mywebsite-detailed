@@ -46,4 +46,4 @@ theme = "hugo-xmin"
 
 [params]
     description = "Bogdan Toader's academic website."
-    footer = "© 2018-2025 Bogdan Toader. Powered by Hugo XMin"
+    footer = "© 2018-2025 Bogdan Toader. Powered by Hugo XMin. <button class='theme-button' onclick='switchTheme()'>[Dark/Light/Colours]</button>"

@@ -11,6 +11,19 @@
     <link rel="stylesheet" href="{{ "/fontawesome6/css/brands.css" | relURL }}" />
     <link rel="stylesheet" href="{{ "/fontawesome6/css/solid.css" | relURL }}" />
     {{ partial "head_custom.html" . }}
+
+    <script>
+      const themes = ["theme1", "theme2", "theme3"];
+      let current = 0;
+      function switchTheme() {
+        document.body.classList.remove(themes[current]);
+        current = (current + 1) % themes.length;
+        document.body.classList.add(themes[current]);
+      }
+      // initialize
+      document.body.classList.add(themes[0]);
+    </script>
+
   </head>
 
   <body>

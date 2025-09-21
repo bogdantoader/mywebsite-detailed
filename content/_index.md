@@ -13,14 +13,14 @@ Title: Bogdan Toader
 **Research interests:** 
 
 * computational imaging and image processing for cryo-EM and cryo-ET
-* machine learning for scientific discovery, aka "AI 4 science"
+* machine learning for scientific discovery 
 * computer vision, inverse problems, optimisation, numerical analysis
 
 <i class="fa-solid fa-envelope"></i> Email: [`btoader@mrc-lmb.cam.ac.uk`](mailto:btoader@mrc-lmb.cam.ac.uk) </br>
 <i class="fa-solid fa-file"></i> Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
 
 <i class="ai ai-google-scholar ai-x"></i>
-[Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
+[Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
 <span style="color: #202328; opacity: 1"><i class="fa-brands fa-github fa-x"></i></span>
 [GitHub](https://github.com/bogdantoader) |
 <span style="color: #A6CE3A; opacity: 1"><i class="ai ai-orcid ai-x"></i></span>
@@ -29,7 +29,6 @@ Title: Bogdan Toader
 [LinkedIn](https://www.linkedin.com/in/bogdan-toader/) |
 <span style="color: #0285FF; opacity: 1"><i class="fa-brands fa-bluesky"></i></span>
 [Bluesky](https://bsky.app/profile/btoader.com)
-
 
 ## About 
 
@@ -152,4 +151,5 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 * **116th European Study Group with Industry** UK, May 2016 <br>
   Implemented mixed integer programming solution to the problem of scheduling field trials proposed by Syngenta. <br>
 
-[back to top](#top)
+[[Back to top]](#top)
+

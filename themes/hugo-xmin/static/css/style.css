@@ -37,7 +37,7 @@ body.theme2 {
   --footer-color: #999;
   --h1-color: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
   --h2-background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
-  --link-color-text: blue;
+  --link-color-text: rgba(253, 29, 29, 1);
   --link-color-hover: #FB00FF;
   --code-background: rgba(0, 225, 255, 1);
   --code-color: black;

@@ -1,8 +1,64 @@
-body {
+:root {
   --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
   --text: black;
-  --text-link: blue;
-  --text-hover: #FB00FF;
+  --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --menu-background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
+  --footer-color: rgba(70,70,70,1);
+  --h1-color: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
+  --h2-background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --link-color-text: blue;
+  --link-color-hover: #FB00FF;
+  --code-background: rgba(0, 225, 255, 1);
+  --code-color: black;
+}
+
+/* Colours theme -- same as the default settings */
+body.theme1 {
+  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
+  --text: black;
+  --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --menu-background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
+  --footer-color: rgba(70,70,70,1);
+  --h1-color: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
+  --h2-background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --link-color-text: blue;
+  --link-color-hover: #FB00FF;
+  --code-background: rgba(0, 225, 255, 1);
+  --code-color: black;
+}
+
+/* Dark theme */
+body.theme2 {
+  --bg: linear-gradient(-30deg, rgba(55, 0, 90, 1) 20%, rgba(0, 10, 87, 1) 50%, rgba(0, 0, 0, 1) 90%);
+  --text: rgba(230, 230, 230, 1);
+  --link-color-text: rgba(253, 29, 29, 1);
+  --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --menu-background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
+  --footer-color: #999;
+  --h1-color: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
+  --h2-background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  --link-color-text: blue;
+  --link-color-hover: #FB00FF;
+  --code-background: rgba(0, 225, 255, 1);
+  --code-color: black;
+}
+
+/* Plain light theme */
+body.theme3 {
+  --bg: white;
+  --text: black;
+  --hr-color: #eee;
+  --menu-background: #eee;
+  --footer-color: #999;
+  --h1-color: black;
+  --h2-background: #eee;
+  --link-color-text: #1527AC;
+  --link-color-hover: #FB00FF;
+  --code-background: #f9f9f9; 
+  --code-color: #1527AC;
+}
+
+body {
   max-width: 800px;
   margin: auto;
   padding: 1em;
@@ -11,52 +67,25 @@ body {
   color: var(--text);
 } 
 
-/* Colours theme -- same as the default settings */
-body.theme1 {
-  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
-  --text: black;
-}
-
-/* Dark theme */
-body.theme2 {
-  --bg: linear-gradient(-30deg, rgba(55, 0, 90, 1) 20%, rgba(0, 10, 87, 1) 50%, rgba(0, 0, 0, 1) 90%);
-  --text: rgba(230, 230, 230, 1);
-  --text-link: rgba(253, 29, 29, 1);
-}
-
-/* Plain light theme */
-body.theme3 {
-  --bg: white;
-  --text: black;
-}
-
 /* header and footer areas */
 .menu { padding: 0; }
 .menu li { display: inline-block; }
 .article-meta, .menu a {
   text-decoration: none;
-  /* background: #eee; */
-  background: rgba(0, 225, 255, 1);
-  background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
+  background: var(--menu-background);
   padding: 7px;
   border-radius: 5px;
-  /* border: 2px solid rgba(251, 0, 255, 1); */
 }
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
 footer { 
-  /* color: #999;  */
-  color: var(--text);
-  /* color: rgba(0, 225, 255, 0.9); */
+  color: var(--footer-color);
 }
 hr {
-  /* border-style: dashed; */
-  /* color: #ddd; */
-  /* color: rgba(251,0,255,0.5); */
   border: none;
   height: 3px;
-  background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  background: var(--hr-color);
   border-radius: 5px;
 }
 
@@ -66,7 +95,7 @@ h1 {
   margin-bottom: 0%;
   line-height: 1.2; /* so that the g isn't clipped by background-clip */
   display: inline-block; /* shrink to text width */
-  background: linear-gradient(90deg,rgba(221, 27, 224, 1) 30%, rgba(29, 74, 253, 1) 70%);
+  background: var(--h1-color);
   -webkit-background-clip: text;  /* Safari/Chrome */
   -webkit-text-fill-color: transparent; /* Safari/Chrome */
   background-clip: text; /* Standard (not supported in Firefox yet without prefix) */
@@ -78,11 +107,15 @@ h1 {
 h2 {
   color: black;
   text-decoration: none;
-  /* background: #eee; */
-  background: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
+  background: var(--h2-background);
   padding: 10px;
   border-radius: 5px;
 }
+
+/* Link colours */
+a:link {color:var(--link-color-text); text-decoration: none}    
+a:visited {color:var(--link-color-text);}  /* same colour as before visiting */
+a:hover {color:var(--link-color-hover); text-decoration: underline} /* visited link is black (reverse the color back to black)*/
 
 /* code */
 pre {
@@ -92,10 +125,8 @@ pre {
   overflow-x: auto;
 }
 code { 
-  /* background: #f9f9f9;  */
-  /* color: rgba(251, 0, 255, 1); */
-  color: black;
-  background: rgba(0, 225, 255, 1);
+  color: var(--code-color);
+  background: var(--code-background);
 }
 pre code { background: none; }
 
@@ -117,14 +148,6 @@ table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee }
 
-/* Link colours */
-/* a:link {color:#1527AC; text-decoration: none}     */
-/* a:visited {color:#1527AC;}  /* same colour as before visiting */
-a:link {color:var(--text-link); text-decoration: none}    
-a:visited {color:var(--text-link);}  /* same colour as before visiting */
-a:hover {color:var(--text-hover); text-decoration: underline} /* visited link is black (reverse the color back to black)*/
-
-a[name="switchtheme"] {float:right}
 
 #lmb-logo {
   /* max-height:80px; */
@@ -177,12 +200,12 @@ a[name="switchtheme"] {float:right}
   border: none;
   padding: 0;
   font: inherit;
-  color: var(--text-link);  /* your theme link color */
+  color: var(--link-color-text);  /* your theme link color */
   cursor: pointer;
   text-decoration: underline; /* optional, like a link */
 }
 
 .theme-button:hover {
-  color: var(--text-hover, blue);
+  color: var(--link-color-hover, blue);
   text-decoration: underline;
 }

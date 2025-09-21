@@ -57,6 +57,7 @@ in collaboration with the
 ## Research 
 
 For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"></i> Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en).
+<hr>
 
 
 ### Selected publications:

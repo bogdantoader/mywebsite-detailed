@@ -58,13 +58,18 @@ body.theme3 {
   --code-color: #1527AC;
 }
 
+html {
+  min-height: 100%;
+  background: var(--bg);
+}
+
 body {
   max-width: 800px;
   margin: auto;
   padding: 1em;
   line-height: 1.5em;
-  background: var(--bg);
   color: var(--text);
+  background: transparent; /* let the html background show through */
 } 
 
 /* header and footer areas */

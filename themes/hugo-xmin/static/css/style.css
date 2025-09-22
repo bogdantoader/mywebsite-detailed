@@ -176,12 +176,11 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
   margin-left:0%;
   margin-right:0%;
   margin-bottom:0%; 
-  margin-top: -2.85% 
-  /* margin-top: 0%  */
+  margin-top: -2.7% 
 }
 
 #my-photo {
-  width: 19%;
+  width: 18.3%;
   float: left;
   margin-top: 0%;
   margin-bottom: 0%;

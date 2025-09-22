@@ -1,8 +1,8 @@
 body {
-  font-family: "Courier", monospace;
-  letter-spacing: -0.5px;
-  font-size: 14px;
-   /* font-family: Optima, Candara, Calibri, Arial, sans-serif; */
+  /* font-family: "Courier", monospace; */
+  /* letter-spacing: -0.5px; */
+  /* font-size: 15px; */
+  font-family: Optima, Candara, Calibri, Arial, sans-serif;
 }
 h1, h2, h3 {
   font-family: Optima, Candara, Calibri, Arial, sans-serif;

@@ -1,5 +1,6 @@
 :root {
-  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
+  --bg-top: rgba(240, 255, 0, 1);
+  --bg: linear-gradient(150deg, var(--bg-top) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
   --text: black;
   --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
   --menu-background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
@@ -13,8 +14,9 @@
 }
 
 /* Colours theme -- same as the default settings */
-body.theme1 {
-  --bg: linear-gradient(150deg, rgba(240, 255, 0, 1) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
+html.theme1 {
+  --bg-top: rgba(240, 255, 0, 1);
+  --bg: linear-gradient(150deg, var(--bg-top) 5%, rgba(252, 219, 69, 1) 20%, rgba(252, 176, 69, 1) 50%, rgba(253, 29, 29, 1) 100%);
   --text: black;
   --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
   --menu-background: linear-gradient(-60deg, rgba(252, 176, 69, 1) 0%, rgba(0, 225, 255, 1) 60%);
@@ -28,8 +30,9 @@ body.theme1 {
 }
 
 /* Dark theme */
-body.theme2 {
-  --bg: linear-gradient(-30deg, rgba(55, 0, 90, 1) 20%, rgba(0, 10, 87, 1) 50%, rgba(0, 0, 0, 1) 90%);
+html.theme2 {
+  --bg-top: rgba(55, 0, 90, 1);
+  --bg: linear-gradient(-30deg, var(--bg-top) 20%, rgba(0, 10, 87, 1) 50%, rgba(0, 0, 0, 1) 90%);
   --text: rgba(230, 230, 230, 1);
   --link-color-text: rgba(253, 29, 29, 1);
   --hr-color: linear-gradient(90deg, rgba(251, 0, 255, 1) 20%, rgba(0, 225, 255, 1) 80%);
@@ -44,7 +47,8 @@ body.theme2 {
 }
 
 /* Plain light theme */
-body.theme3 {
+html.theme3 {
+  --bg-top: white;
   --bg: white;
   --text: black;
   --hr-color: #eee;
@@ -62,17 +66,18 @@ body.theme3 {
 html {
   min-height: 100%;
   background: var(--bg);
+  color: var(--text);
 }
 
 body {
   min-height: 100%;
   background: transparent; /* let the html background show through */
   margin: auto;
-  /* margin: 0; */
   max-width: 800px;
+  padding-left: 10px;
+  padding-right: 10px;
   /* padding: 0em; */
   line-height: 1.3em;
-  color: var(--text);
   /* make sure content isn't hidden under notch/address bar */
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);

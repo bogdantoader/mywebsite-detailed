@@ -20,7 +20,7 @@ Title: Bogdan Toader
 <i class="fa-solid fa-file"></i> Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
 
 <i class="ai ai-google-scholar ai-x"></i>
-[Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
+[Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |
 <span style="color: #202328; opacity: 1"><i class="fa-brands fa-github fa-x"></i></span>
 [GitHub](https://github.com/bogdantoader) |
 <span style="color: #A6CE3A; opacity: 1"><i class="ai ai-orcid ai-x"></i></span>

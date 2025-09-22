@@ -58,18 +58,27 @@ body.theme3 {
   --code-color: #1527AC;
 }
 
+/* Let the page reach the very edges and let the OS UI area display the page background */
 html {
   min-height: 100%;
   background: var(--bg);
 }
 
 body {
-  max-width: 800px;
-  margin: auto;
-  padding: 1em;
-  line-height: 1.5em;
-  color: var(--text);
+  min-height: 100%;
   background: transparent; /* let the html background show through */
+  margin: auto;
+  /* margin: 0; */
+  max-width: 800px;
+  /* padding: 0em; */
+  line-height: 1.3em;
+  color: var(--text);
+  /* make sure content isn't hidden under notch/address bar */
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  /* legacy safari support */
+  padding-top: constant(safe-area-inset-top);
+  padding-bottom: constant(safe-area-inset-bottom);
 } 
 
 /* header and footer areas */

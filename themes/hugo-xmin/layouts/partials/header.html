@@ -2,16 +2,10 @@
 <html lang="{{ .Site.LanguageCode }}">
   <head>
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <!-- Optional for PWAs / standalone on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Android Chrome top bar color (solid colour only); TODO: update actual colour -->
-    <!-- <meta name="theme-color" content="#1527AC"> -->
-
-
 
     <title>{{ .Title }}</title>
     <link rel="stylesheet" href="{{ "/css/style.css?newcache=0.0.1" | relURL }}" />
@@ -40,16 +34,27 @@
         }
       }
 
-      const themes = ["theme1", "theme2", "theme3"];
-      let current = 0;
-
       function switchTheme() {
         document.documentElement.classList.remove(themes[current]);
         current = (current + 1) % themes.length;
         document.documentElement.classList.add(themes[current]);
 
+        localStorage.setItem("theme", themes[current]);
+
         // update theme-color dynamically
         setThemeColorFromCss();
+      }
+
+      const themes = ["theme1", "theme2", "theme3"];
+      let current = 0;
+
+      const savedTheme = localStorage.getItem("theme");
+      if (savedTheme && themes.includes(savedTheme)) {
+        document.documentElement.classList.add(savedTheme);
+        current = themes.indexOf(savedTheme);
+      } else {
+        // default theme
+        document.body.classList.add(themes[0]);
       }
 
       // initialize

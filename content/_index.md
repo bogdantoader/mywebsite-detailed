@@ -47,7 +47,7 @@ University of Oxford, under the supervision of
 [Dr. Andrew Thompson](https://people.maths.ox.ac.uk/thompson/),
 in collaboration with the 
 [National Physical Laboratory](http://www.npl.co.uk/):
-[thesis](Bogdan_Toader_thesis.pdf) on grid-free compressed sensing/super-resolution
+[thesis](https://dx.doi.org/10.5287/ora-yq8qbdnmj) on grid-free compressed sensing/super-resolution
   * Core participant of the 
 [IPAM long program on computational microscopy](http://www.ipam.ucla.edu/programs/long-programs/computational-microscopy/) at UCLA and an enrichment student at the 
 [Alan Turing Institute](https://www.turing.ac.uk)

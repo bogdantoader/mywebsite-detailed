@@ -35,7 +35,7 @@ theme = "hugo-xmin"
     weight = 5
 [[menu.main]]
     name = "CV"
-    url = "CV_BogdanToader_2025_06.pdf"
+    url = "CV_BogdanToader_2026_04.pdf"
     weight = 6
 
 [markup]

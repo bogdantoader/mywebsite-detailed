@@ -16,8 +16,8 @@ Title: Bogdan Toader
 * machine learning for scientific discovery 
 * computer vision, inverse problems, optimisation, numerical analysis
 
-<i class="fa-solid fa-envelope"></i> Email: [`btoader@mrc-lmb.cam.ac.uk`](mailto:btoader@mrc-lmb.cam.ac.uk) </br>
-<i class="fa-solid fa-file"></i> Curriculum Vitae: [June 2025](CV_BogdanToader_2025_06.pdf)
+<i class="fa-solid fa-envelope"></i> Email: [`btoader@mrclmb.ac.uk`](mailto:btoader@mrclmb.ac.uk) </br>
+<i class="fa-solid fa-file"></i> Curriculum Vitae: [June 2026](CV_BogdanToader_2026_06.pdf)
 
 <i class="ai ai-google-scholar ai-x"></i>
 [Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en) |

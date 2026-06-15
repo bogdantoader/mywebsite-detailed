@@ -46,19 +46,15 @@
       }
 
       const themes = ["theme1", "theme2", "theme3"];
-      let current = 0;
+      let current = 2; // default theme: theme3 (black & white)
 
       const savedTheme = localStorage.getItem("theme");
       if (savedTheme && themes.includes(savedTheme)) {
-        document.documentElement.classList.add(savedTheme);
         current = themes.indexOf(savedTheme);
-      } else {
-        // default theme
-        document.body.classList.add(themes[2]);
       }
 
-      // initialize
-      document.documentElement.classList.add(themes[2]);
+      // initialize (document.body doesn't exist yet in <head>, so use documentElement)
+      document.documentElement.classList.add(themes[current]);
       setThemeColorFromCss();
     </script>
 

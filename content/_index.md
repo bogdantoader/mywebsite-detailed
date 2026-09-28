@@ -70,7 +70,14 @@ For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"><
 <!-- 5. add a representative image for each paper, or not really -->
  
 <ul>
-
+  <li>
+    <a href="https://arxiv.org/abs/2609.04325"><i>
+    The microscope is the mask: privileged views and labels from a cryo-ET forward model
+    </i></a></br>
+    <b>B. Toader</b>, K. Jamali, T.A.M. Bharat, S.H.W. Scheres</br>
+    preprint, 2026
+    </br>
+  </li></br>
   <li>
     <a href="https://doi.org/10.1107/S205979832500511X"><i>
     Efficient high-resolution refinement in cryo-EM with stochastic gradient descent

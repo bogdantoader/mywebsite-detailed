@@ -227,3 +227,7 @@ thead, tfoot, tr:nth-child(even) { background: #eee }
   color: var(--link-color-hover, blue);
   text-decoration: underline;
 }
+
+.video-embed { position: relative; width: 100%; max-width: 560px; aspect-ratio: 16 / 9; margin: 12px auto; border-radius: 15px; overflow: hidden; background: #000; box-shadow: 0 0 16px rgba(255,0,255,0.3); }
+.video-embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+@supports not (aspect-ratio: 16 / 9) { .video-embed { height: 0; padding-bottom: 56.25%; } }

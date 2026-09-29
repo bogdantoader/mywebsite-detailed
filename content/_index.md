@@ -56,9 +56,14 @@ in collaboration with the
 
 ## Research 
 
+A recent talk from the 2026 CCP-EM Spring Symposium on my current work is below:
+
+<div class="video-embed">
+  <iframe src="https://www.youtube.com/embed/3dNW0W5WHS0?start=52" title="Self-supervised spatial features for protein detection in crowded cryo-ET tomograms | Bogdan Toader" loading="lazy" allow="clipboard-write; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 For a complete list of publications, see [<i class="ai ai-google-scholar ai-x"></i> Google Scholar](https://scholar.google.co.uk/citations?user=X76IzDMAAAAJ&hl=en).
 <hr>
-
 
 ### Selected publications:
 

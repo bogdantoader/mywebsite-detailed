@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="revealjs/reset.css" />
+    <link rel="stylesheet" href="revealjs/reveal.css" />
+    <link rel="stylesheet" href="revealjs/theme/white.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <!-- <link rel="stylesheet" href="revealjs/plugin/highlight/monokai.css" /> -->
+    <link rel="stylesheet" href="custom.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- <section> -->
+        <!--   Self-supervised spatial features for protein detection in crowded cryo-ET tomograms -->
+        <!---->
+        <!--   Bogdan Toader -->
+        <!-- </section> -->
+        <section data-markdown="slides.md"></section>
+      </div>
+    </div>
+
+    <script src="revealjs/reveal.js"></script>
+    <script src="revealjs/plugin/notes.js"></script>
+    <script src="revealjs/plugin/markdown.js"></script>
+    <!-- <script src="revealjs/plugin/highlight.js"></script> -->
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+        // width: 1280,
+        // height: 720,
+
+        // 16:9
+        width: 1920,
+        height: 1080,
+
+        center: false,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        // plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+        plugins: [RevealMarkdown, RevealNotes],
+
+        controls: false,
+        progress: false,
+        // slideNumber: "c/t",
+        slideNumber: slide => {
+          const before = Reveal.getSlidePastCount(slide);   // slides before this one
+          if (before === 0) return [''];                    // title slide: no number
+          return [before, '/', Reveal.getTotalSlides() - 1];
+        },
+
+
+        transition: 'none',
+
+      });
+    </script>
+  </body>
+</html>

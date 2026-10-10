@@ -1,0 +1,99 @@
+:root {
+  --r-heading-text-transform: none;  /* no more capitals */
+  --r-main-font-size: 42px;          /* body text */
+  --r-heading1-size: 1.5em;
+  --r-heading2-size: 1.4em;
+  --r-heading3-size: 1.3em;
+}
+
+.reveal h3 { color: #004D7F; }
+
+.reveal .slide-number {
+  background: none;      /* remove the dark box */
+  color: #5E5E5E;           /* gray */
+  font-family: inherit;  /* same font as the slides */
+  font-size: 2.2vh;
+  right: 2vh;
+  bottom: 2vh;
+}
+
+/* Logo in the top left corner of the slide. Slides are centred vertically,
+   so the slide holding the logo is stretched to full height to make "top"
+   the top of the slide; align-content keeps its text centred. */
+.reveal .slides section:has(.title-page-logo) {
+  height: 100%;
+  align-content: center;
+  box-sizing: border-box;
+  padding-top: 225px;   /* logo strip: 3% + 18% of the slide height */
+}
+
+.reveal .title-page-logo {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  height: 20%;                      /* logo size */
+  margin: 0;
+}
+
+.reveal .citation {
+  color: #5E5E5E;
+  display: block;
+  text-align: left;
+  margin-left: 2%;
+  font-size: 0.8em;
+}
+
+.reveal .tfblue { color: #0076BA; }
+.reveal .blue { color: #004D7F; }
+.reveal .green { color: #1DB100; }
+.reveal .gray { color: #929292; }
+
+.reveal .listcurrent { color: #004D7F; font-weight: bold; }
+
+/* Slide content to the left, title centred */
+.reveal .slides section.left { text-align: left; }
+.reveal .slides section.left h3 { text-align: center; }
+.reveal .slides section.left > :is(p, ul, ol) { /* indent the body text */
+  padding-left: 8%;
+  padding-right: 8%
+}
+
+/* Title at the top, the rest of the slide centred vertically below it */
+.reveal .slides section.middle {
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 3em;             /* room for the title */
+  align-content: center;
+}
+.reveal .slides section.middle h3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;                     /* full width, so it stays centred */
+}
+
+/* Citations at the bottom of "middle" slides */
+.reveal .slides section.middle p:has(> .citation),  /* paragraph holding citations */
+.reveal .slides section.middle > .citation {         /* citation standing on its own */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+
+/* Captioned videos side by side: each caption sits above its video */
+.reveal .video-grid {
+  display: grid;
+  grid-auto-flow: column;          /* fill column by column: caption, then its video */
+  grid-template-rows: auto auto;   /* row 1: captions, row 2: videos */
+  grid-auto-columns: 450px;        /* width of each column = video size */
+  column-gap: 20px;
+  justify-content: center;
+  font-size: 0.9em;                /* smaller caption text */
+}
+.reveal .video-grid p { align-self: end; margin: 0 0; }  /* caption just above its video */
+.reveal .video-grid video { width: 100%; max-width: none; max-height: none; }
+
+
+

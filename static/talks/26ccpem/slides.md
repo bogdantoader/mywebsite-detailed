@@ -142,7 +142,9 @@ Train the model:  
 <br>
 
 <div class="cool-box fragment">
+
 The feature volume encodes spatial position AND protein identity.
+
 </div>
 
 ---

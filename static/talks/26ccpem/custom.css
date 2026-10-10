@@ -113,21 +113,30 @@
 .reveal .turqoise-box > :first-child { margin-top: 0; }     /* no extra gap at the top */
 .reveal .turqoise-box > :last-child { margin-bottom: 0; }   /* nor at the bottom */
 
-/* A cool box */
-.reveal .cool-box{
+/* A black box with gradient text.
+   Leave a blank line after <div class="cool-box"> and before </div>, so the text is a paragraph. */
+.reveal .cool-box {
   width: fit-content;        /* only as wide as its text */
-  margin:  auto ;            /* centred */ 
+  margin: auto;              /* centred */
   padding: 0.2em 1em;        /* space between the text and the edge */
   border-radius: 0.5em;
-  /* two background layers: the gradient, visible only through the letters, on top of plain black */
-  background-image:
-    linear-gradient(315deg, #0BEEFF 15%,  #FF00F2 85% ),
-    linear-gradient(black, black);
-  background-origin: content-box, padding-box;   /* the gradient spans the text, not the padding */
-  -webkit-background-clip: text, padding-box;
-  background-clip: text, padding-box;
-  color: transparent;        /* lets the gradient show through the letters */
+  background: black;
+  color: white;              /* fallback if the text is not in a paragraph */
   font-size: 1.3em;
   font-weight: bold;
+}
+.reveal .cool-box > p {
+  margin: 0;
+  background-image: linear-gradient(315deg, #0BEEFF 15%, #FF00F2 85%);
+  -webkit-background-clip: text;   /* the gradient shows only through the letters */
+  background-clip: text;
+  color: transparent;
+}
+
+/* A bullet belongs to its list item, not to the text inside it:
+   hide it while that text is a fragment that is not showing */
+.reveal li:has(> p.fragment:not(.visible))::marker,
+.reveal li:has(> p.fragment.fade-in-then-out:not(.current-fragment))::marker {
+  color: transparent;
 }
 

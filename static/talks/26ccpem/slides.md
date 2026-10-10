@@ -14,15 +14,13 @@ CCP-EM Spring Symposium\
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<br>
+<!-- .slide: class="middle" -->
 
-<img src="img/nmar_andriko.jpg" alt="N. Maritimus image from von Kugelgen paper" class="r-stretch">
+<img data-src="img/nmar_andriko.jpg" alt="N. Maritimus image from von Kugelgen paper" height="600">
 
 Ribosomes and S-layer proteins are abundant and high-contrast,\
 but what about the **smaller, rarer proteins in the crowded cellular environment**?
 <!-- .element: class="fragment" -->
-
-<br>
 
 <a href="https://www.nature.com/articles/s41586-024-07462-5" class="citation">von Kügelgen *et al.* Nature 2024</a>
 
@@ -32,9 +30,8 @@ Note: some notes
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="left" -->
+<!-- .slide: class="left middle" -->
 
-<br><br>
 
 Current approaches:
 
@@ -68,9 +65,8 @@ Why not use it? <!-- .element: class="fragment green" data-fragment-index="3"-->
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="left" -->
+<!-- .slide: class="left middle" -->
 
-<br>
 
 Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: class="tfblue" -->
 * Requires annotated data <!-- .element: class="fragment fade-in-then-out"-->
@@ -89,7 +85,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 ---
 
-<!-- .slide: class="center" style="font-size: 1.3em" -->
+<!-- .slide: class="middle" style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data
 2. Crowding robustness
@@ -99,7 +95,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 ---
 
-<!-- .slide: class="center" style="font-size: 1.3em" -->
+<!-- .slide: class="middle" style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="listcurrent" -->
 2. Crowding robustness <!-- .element: class="gray" -->
@@ -124,9 +120,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 </div>
 
 
-<a href="https://www.nature.com/articles/s41592-023-01878-z" class="citation">
-~130 PDB_IDs from Rice, G., Wagner, et al. Nat Methods 2023
-</a>
+<a href="https://www.nature.com/articles/s41592-023-01878-z" class="citation">~130 PDB_IDs from Rice, G., Wagner *et al.* Nat Methods 2023</a>
 
 
 ---
@@ -176,7 +170,7 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 
-<!-- .slide: class="center" style="font-size: 1.3em" -->
+<!-- .slide: class="middle" style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="gray" -->
 2. Crowding robustness <!-- .element: class="listcurrent" -->
@@ -186,7 +180,7 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 
-<!-- .slide: class="center" style="font-size: 1.3em" -->
+<!-- .slide: class="middle" style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="gray" -->
 2. Crowding robustness <!-- .element: class="listcurrent" --><br>

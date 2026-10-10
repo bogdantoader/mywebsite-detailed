@@ -47,6 +47,7 @@
 .reveal .blue { color: #004D7F; }
 .reveal .green { color: #1DB100; }
 .reveal .gray { color: #929292; }
+.reveal .orange { color: #F27200; }
 
 .reveal .listcurrent { color: #004D7F; font-weight: bold; }
 
@@ -62,7 +63,8 @@
 .reveal .slides section.middle {
   height: 100%;
   box-sizing: border-box;
-  padding-top: 3em;             /* room for the title */
+  padding-top: 3em;      /* room for the title */
+  padding-bottom: 3em;   /* same at the bottom, so the centre is the slide's centre */
   align-content: center;
 }
 .reveal .slides section.middle h3 {
@@ -82,18 +84,51 @@
   margin-bottom: 0;
 }
 
-/* Captioned videos side by side: each caption sits above its video */
-.reveal .video-grid {
+/* Generic grid: cells fill row by row, each centred vertically in its row.
+   Equal columns:  <div class="grid cols-4">
+   Other widths:   <div class="grid" style="grid-template-columns: auto 1fr"> */
+.reveal .grid {
   display: grid;
-  grid-auto-flow: column;          /* fill column by column: caption, then its video */
-  grid-template-rows: auto auto;   /* row 1: captions, row 2: videos */
-  grid-auto-columns: 450px;        /* width of each column = video size */
-  column-gap: 20px;
-  justify-content: center;
-  font-size: 0.9em;                /* smaller caption text */
+  gap: 15px 20px;              /* between rows | between columns */
+  align-items: center;
+  justify-content: center;     /* centres the grid when its columns have fixed widths */
 }
-.reveal .video-grid p { align-self: end; margin: 0 0; }  /* caption just above its video */
-.reveal .video-grid video { width: 100%; max-width: none; max-height: none; }
+.reveal .cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }  /* equal shares */
+.reveal .cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.reveal .cols-4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.reveal .cols-5 { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+.reveal .grid > p { margin: 0; }                 /* the gap does the spacing */
+.reveal .grid :is(img, video) {                  /* media fill their column */
+  display: block; width: 100%; max-width: none; max-height: none;
+}
 
+/* Text in a coloured box */
+.reveal .turqoise-box {
+  width: fit-content;        /* only as wide as its text */
+  margin:  auto ;            /* centred */ 
+  padding: 0.2em 1em;        /* space between the text and the edge */
+  background: #16E7CF;       /* the turquoise of "Model" in the figure */
+  /* text-align: left; */
+  border-radius: 0.5em;
+}
+.reveal .turqoise-box > :first-child { margin-top: 0; }     /* no extra gap at the top */
+.reveal .turqoise-box > :last-child { margin-bottom: 0; }   /* nor at the bottom */
 
+/* A cool box */
+.reveal .cool-box{
+  width: fit-content;        /* only as wide as its text */
+  margin:  auto ;            /* centred */ 
+  padding: 0.2em 1em;        /* space between the text and the edge */
+  border-radius: 0.5em;
+  /* two background layers: the gradient, visible only through the letters, on top of plain black */
+  background-image:
+    linear-gradient(315deg, #0BEEFF 15%,  #FF00F2 85% ),
+    linear-gradient(black, black);
+  background-origin: content-box, padding-box;   /* the gradient spans the text, not the padding */
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  color: transparent;        /* lets the gradient show through the letters */
+  font-size: 1.3em;
+  font-weight: bold;
+}
 

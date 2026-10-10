@@ -134,11 +134,7 @@ Train the model:  
 ---
 ### SSL on simulated cryo-ET data: resulting model
 
-<div class="r-hstack" style="gap: 40px">
-<video data-src="img/learned_features/input_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
-<img data-src="img/learned_features/features_encoder.webp" alt="Model diagram" height="300">
-<video data-src="img/learned_features/feature_pca_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
-</div>
+<video data-src="img/input_encoder_features.mp4" height="500" data-autoplay loop muted></video>
 
 **Particle embedding:**  feature vector at particle position
 <!-- .element: class="fragment" -->

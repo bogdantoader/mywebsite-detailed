@@ -1,4 +1,4 @@
-<img src="img/lmb_logo.png" class="title-page-logo">
+<img data-src="img/lmb_logo.webp" class="title-page-logo">
 
 
 # Self-supervised spatial features for protein detection<br> in crowded cryo-ET tomograms
@@ -57,8 +57,8 @@ Current approaches:
 
 Lots of available data
 
-![PDB growth](img/pdb_growth.png) <!-- .element: height="500" class="fragment" data-fragment-index="1"-->
-![AlphaFold DB](img/alphafold_db.jpg) <!-- .element: height="500" class="fragment" data-fragment-index="2"-->
+<img data-src="img/pdb_growth.webp" alt="PDB growth" height="500" class="fragment" data-fragment-index="1">
+<img data-src="img/alphafold_db.jpg" alt="AlphaFold DB" height="500" class="fragment" data-fragment-index="2">
 
 Why not use it? <!-- .element: class="fragment green" data-fragment-index="3"-->
 
@@ -117,10 +117,10 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 <p>Generate crowded environment</p>
 <p>Project + add noise<br>to tilt images</p>
 <p>Reconstruct<br>tomogram</p>
-<video src="img/data_simulation/big_only_zslices.mp4" data-autoplay loop muted></video>
-<video src="img/data_simulation/clean_zslices.mp4" data-autoplay loop muted></video>
-<video src="img/data_simulation/tilts_noisy_dose_weighted.mp4" data-autoplay loop muted></video>
-<video src="img/data_simulation/simulated_zslices.mp4" data-autoplay loop muted></video>
+<video data-src="img/data_simulation/big_only_zslices.mp4" data-autoplay loop muted></video>
+<video data-src="img/data_simulation/clean_zslices.mp4" data-autoplay loop muted></video>
+<video data-src="img/data_simulation/tilts_noisy_dose_weighted.mp4" data-autoplay loop muted></video>
+<video data-src="img/data_simulation/simulated_zslices.mp4" data-autoplay loop muted></video>
 </div>
 
 
@@ -134,7 +134,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 <!-- .slide: class="middle" -->
 
-<img src="img/model_diagram.png" alt="Model diagram" height="750">
+<img data-src="img/model_diagram.webp" alt="Model diagram" height="750">
 
 
 ---
@@ -142,7 +142,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 <!-- .slide: class="middle" -->
 
-<img src="img/training_diagram.png" alt="Model diagram" height="550">
+<img data-src="img/training_diagram.webp" alt="Model diagram" height="550">
 
 
 <div class="turqoise-box">
@@ -160,9 +160,9 @@ Train the model:  
 <!-- .slide: class="middle" -->
 
 <div class="r-hstack" style="gap: 40px">
-<video src="img/learned_features/input_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
-<img src="img/learned_features/features_encoder.png" alt="Model diagram" height="300">
-<video src="img/learned_features/feature_pca_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
+<video data-src="img/learned_features/input_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
+<img data-src="img/learned_features/features_encoder.webp" alt="Model diagram" height="300">
+<video data-src="img/learned_features/feature_pca_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
 </div>
 
 **Particle embedding:**  feature vector at particle position
@@ -204,7 +204,7 @@ The feature volume encodes spatial position AND protein identity.
 
 1. **Simulate** volumes at different density levels (1-17 particles/volume)
 
-   <img src="img/crowding/crowding_inputs.png" alt="Increasingly crowded inputs" height="270">
+   <img data-src="img/crowding/crowding_inputs.webp" alt="Increasingly crowded inputs" height="270">
 
 2. **Compute particle embeddings** using:
 * **TomoFind**<!-- .element: class="tfblue" -->: trained with multiple particles/block
@@ -219,9 +219,9 @@ The feature volume encodes spatial position AND protein identity.
 <span>Particles/block</span>
 <div class="grid cols-4" style="gap: 0; position: relative; left: 0.8%"><span>1-3</span><span>4-6</span><span>7-9</span><span>10-17</span></div>
 <strong class="tfblue">TomoFind</strong>
-<img src="img/crowding/crowding_umap_tomofind.png" alt="UMAP of TomoFind embeddings in increasingly crowded inputs">
+<img data-src="img/crowding/crowding_umap_tomofind.webp" alt="UMAP of TomoFind embeddings in increasingly crowded inputs">
 <strong class="orange">Baseline</strong>
-<img src="img/crowding/crowding_umap_baseline.png" alt="UMAP of baseline embeddings in increasingly crowded inputs">
+<img data-src="img/crowding/crowding_umap_baseline.webp" alt="UMAP of baseline embeddings in increasingly crowded inputs">
 </div>
 
 * Axes: UMAP 2 dimensions
@@ -235,7 +235,7 @@ The feature volume encodes spatial position AND protein identity.
 Classify each particle using  `KNeighborsClassifier`\
 Particle type = type of majority of k-closest neighbours
 
-<img src="img/crowding/accuracy_vs_crowding.png" alt="Accuracy vs croding graphs showing TomoFind stays roughly flat while Baseline decreases" height="600">
+<img data-src="img/crowding/accuracy_vs_crowding.webp" alt="Accuracy vs croding graphs showing TomoFind stays roughly flat while Baseline decreases" height="600">
 
 <br>
 

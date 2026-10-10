@@ -14,8 +14,6 @@ CCP-EM Spring Symposium\
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="middle" -->
-
 <img data-src="img/nmar_andriko.jpg" alt="N. Maritimus image from von Kugelgen paper" height="600">
 
 Ribosomes and S-layer proteins are abundant and high-contrast,\
@@ -24,14 +22,12 @@ but what about the **smaller, rarer proteins in the crowded cellular environment
 
 <a href="https://www.nature.com/articles/s41586-024-07462-5" class="citation">von Kügelgen *et al.* Nature 2024</a>
 
-
 Note: some notes
 
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="left middle" -->
-
+<!-- .slide: class="left" -->
 
 Current approaches:
 
@@ -50,8 +46,6 @@ Current approaches:
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="middle" -->
-
 Lots of available data
 
 <img data-src="img/pdb_growth.webp" alt="PDB growth" height="500" class="fragment" data-fragment-index="1">
@@ -65,7 +59,7 @@ Why not use it? <!-- .element: class="fragment green" data-fragment-index="3"-->
 ---
 ### Challenge: comprehensive identification of structures in cryo-ET tomograms
 
-<!-- .slide: class="left middle" -->
+<!-- .slide: class="left" -->
 
 
 Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: class="tfblue" -->
@@ -85,7 +79,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 ---
 
-<!-- .slide: class="middle" style="font-size: 1.3em" -->
+<!-- .slide: style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data
 2. Crowding robustness
@@ -95,7 +89,7 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 ---
 
-<!-- .slide: class="middle" style="font-size: 1.3em" -->
+<!-- .slide: style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="listcurrent" -->
 2. Crowding robustness <!-- .element: class="gray" -->
@@ -105,8 +99,6 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 
 ---
 ### SSL on simulated cryo-ET data: data simulation pipeline
-
-<!-- .slide: class="middle" -->
 
 <div class="grid cols-4" style="font-size: 0.9em; row-gap: 0">
 <p>Place particles in volume<br>at random positions</p>
@@ -119,25 +111,17 @@ Self-supervised learning on simulated cryo-ET data: **TomoFind** <!-- .element: 
 <video data-src="img/data_simulation/simulated_zslices.mp4" data-autoplay loop muted></video>
 </div>
 
-
 <a href="https://www.nature.com/articles/s41592-023-01878-z" class="citation">~130 PDB_IDs from Rice, G., Wagner *et al.* Nat Methods 2023</a>
-
 
 ---
 ### SSL on simulated cryo-ET data: encoder
 
-<!-- .slide: class="middle" -->
-
 <img data-src="img/model_diagram.webp" alt="Model diagram" height="750">
-
 
 ---
 ### SSL on simulated cryo-ET data: multi-view training
 
-<!-- .slide: class="middle" -->
-
 <img data-src="img/training_diagram.webp" alt="Model diagram" height="550">
-
 
 <div class="turqoise-box">
 
@@ -149,9 +133,6 @@ Train the model:  
 
 ---
 ### SSL on simulated cryo-ET data: resulting model
-
-
-<!-- .slide: class="middle" -->
 
 <div class="r-hstack" style="gap: 40px">
 <video data-src="img/learned_features/input_zslices_sample000_local.mp4" height="500" data-autoplay loop muted></video>
@@ -170,7 +151,7 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 
-<!-- .slide: class="middle" style="font-size: 1.3em" -->
+<!-- .slide: style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="gray" -->
 2. Crowding robustness <!-- .element: class="listcurrent" -->
@@ -180,7 +161,7 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 
-<!-- .slide: class="middle" style="font-size: 1.3em" -->
+<!-- .slide: style="font-size: 1.3em" -->
 
 1. Self-supervised learning on simulated cryo-ET data  <!-- .element: class="gray" -->
 2. Crowding robustness <!-- .element: class="listcurrent" --><br>
@@ -194,8 +175,6 @@ The feature volume encodes spatial position AND protein identity.
 ---
 ### Crowding robustness Q1: Are particle embeddings robust to crowding?
 
-<!-- .slide: class="middle" -->
-
 1. **Simulate** volumes at different density levels (1-17 particles/volume)
 
    <img data-src="img/crowding/crowding_inputs.webp" alt="Increasingly crowded inputs" height="270">
@@ -206,8 +185,6 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 ### Crowding robustness Q1: Are particle embeddings robust to crowding?
-
-<!-- .slide: class="middle" -->
 
 <div class="grid" style="grid-template-columns: auto 1fr">
 <span>Particles/block</span>
@@ -223,8 +200,6 @@ The feature volume encodes spatial position AND protein identity.
 
 ---
 ### Crowding robustness Q1: Are particle embeddings robust to crowding?
-
-<!-- .slide: class="middle" -->
 
 Classify each particle using  `KNeighborsClassifier`\
 Particle type = type of majority of k-closest neighbours

@@ -21,10 +21,8 @@
    so the slide holding the logo is stretched to full height to make "top"
    the top of the slide; align-content keeps its text centred. */
 .reveal .slides section:has(.title-page-logo) {
-  height: 100%;
-  align-content: center;
-  box-sizing: border-box;
   padding-top: 225px;   /* logo strip: 3% + 18% of the slide height */
+  padding-bottom: 0;    /* no strip at the bottom of the title slide */
 }
 
 .reveal .title-page-logo {
@@ -59,29 +57,30 @@
   padding-right: 8%
 }
 
-/* Title at the top, the rest of the slide centred vertically below it */
-.reveal .slides section.middle {
+/* Default slide layout: title at the top, the rest centred vertically below it */
+.reveal .slides section {
   height: 100%;
   box-sizing: border-box;
   padding-top: 3em;      /* room for the title */
   padding-bottom: 3em;   /* same at the bottom, so the centre is the slide's centre */
   align-content: center;
 }
-.reveal .slides section.middle h3 {
+.reveal .slides section h3 {
   position: absolute;
   top: 0;
   left: 0;
-  right: 0;                     /* full width, so it stays centred */
+  right: 0;          /* full width, so it stays centred */
 }
 
 /* Citations at the bottom of "middle" slides */
-.reveal .slides section.middle p:has(> .citation),  /* paragraph holding citations */
-.reveal .slides section.middle > .citation {         /* citation standing on its own */
+.reveal .slides section p:has(> .citation),  /* paragraph holding citations */
+.reveal .slides section > .citation {         /* citation standing on its own */
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   margin-bottom: 0;
+  padding: 0;          /* no indent on "left" slides */
 }
 
 /* Generic grid: cells fill row by row, each centred vertically in its row.

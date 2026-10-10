@@ -58,7 +58,7 @@ Current approaches:
 Lots of available data
 
 ![PDB growth](img/pdb_growth.png) <!-- .element: height="500" class="fragment" data-fragment-index="1"-->
-![AlphaFold DB](img/alphafold_db.png) <!-- .element: height="500" class="fragment" data-fragment-index="2"-->
+![AlphaFold DB](img/alphafold_db.jpg) <!-- .element: height="500" class="fragment" data-fragment-index="2"-->
 
 Why not use it? <!-- .element: class="fragment green" data-fragment-index="3"-->
 

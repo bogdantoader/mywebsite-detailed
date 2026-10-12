@@ -98,9 +98,9 @@ body {
 .menu, .article-meta, footer { text-align: center; }
 .title { font-size: 1.1em; }
 footer a { text-decoration: none; }
-footer { 
-  color: var(--footer-color);
-}
+footer { color: var(--footer-color); }
+footer a:link { color: var(--footer-color); }
+footer a:visited { color: var(--footer-color); }
 hr {
   border: none;
   height: 3px;

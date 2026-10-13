@@ -222,7 +222,7 @@ Particle type = type of majority of k-closest neighbours
 
 <img data-src="img/particle_types.png" alt="Particle types" height="200">
 
-Compare embeddings of **TomoFind**<!-- .element: class="tfblue" --> & **TomoTwin**<!-- .element: class="orange" --> **at ground-truth coordinates**.
+Compare embeddings of **TomoFind**<!-- .element: class="tfblue" --> & **TomoTwin**<!-- .element: class="orange" --> **at ground-truth coordinates**
 
 <a href="https://www.nature.com/articles/s41592-023-01878-z" class="citation">~130 PDB_IDs from Rice, G., Wagner *et al.* Nat Methods 2023</a>
 
@@ -272,32 +272,30 @@ Bonus: <strong class="tfblue">TomoFind</strong> also works on denoised tomograms
 
 
 <p style="font-size:1.2em">Classification accuracy</p>
+
 <br>
+
 
 | Processing type | <strong class="tfblue">TomoFind</strong> | <strong class="orange">TomoTwin</strong> |
 |---|---|---|
 | Filtered | 0.90 | 0.88 |
 | Denoised | 0.89 | 0.82 | 
 
-<br>
+
+<br><br>
 
 <p style="color:magenta; font-size:1.2em">
 <strong class="tfblue">TomoFind</strong> computes consistent embeddings regardless of preprocessing choice
 </p>
 
-TODO: center align of text in table
+
+<!-- TODO: center align of text in table -->
 
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms?
 
 
-
-
-
-
----
-
-
+To be continued...
 
 
 

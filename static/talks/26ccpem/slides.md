@@ -220,7 +220,7 @@ Particle type = type of majority of k-closest neighbours
 
 <br>
 
-<img data-src="img/particle_types.png" alt="Particle types" height="200">
+<img data-src="img/particle_types.webp" alt="Particle types" height="200">
 
 Compare embeddings of **TomoFind**<!-- .element: class="tfblue" --> & **TomoTwin**<!-- .element: class="orange" --> **at ground-truth coordinates**
 
@@ -235,10 +235,10 @@ Compare embeddings of **TomoFind**<!-- .element: class="tfblue" --> & **TomoTwin
 <strong class="tfblue" style="position: relative; left:5%">TomoFind</strong>
 <strong class="orange" style="position: relative; left:4%">TomoTwin</strong>
 <p></p>
-<img data-src="img/classification/classification_filtered_tomofind.png" alt="Classification using TomoFind on filtered particles" style="scale:100%">
-<img data-src="img/classification/classification_filtered_tomotwin.png" alt="Classification using TomoTwin on filtered particles" style="scale:100%">
+<img data-src="img/classification/classification_filtered_tomofind.webp" alt="Classification using TomoFind on filtered particles" style="scale:100%">
+<img data-src="img/classification/classification_filtered_tomotwin.webp" alt="Classification using TomoTwin on filtered particles" style="scale:100%">
 <p style="font-size: 0.8em" >Coloured by ground-truth particle types:
-<img data-src="img/particle_types.png" alt="Particle types" style="scale:80%">
+<img data-src="img/particle_types.webp" alt="Particle types" style="scale:70%">
 </p>
 </div>
 
@@ -254,10 +254,10 @@ Compare embeddings of **TomoFind**<!-- .element: class="tfblue" --> & **TomoTwin
 <strong class="tfblue" style="position: relative; left:4%">TomoFind</strong>
 <strong class="orange" style="position: relative; left:3%">TomoTwin</strong>
 <p></p>
-<img data-src="img/classification/classification_denoised_tomofind.png" alt="Classification using TomoFind on denoised particles" style="scale:100%">
-<img data-src="img/classification/classification_denoised_tomotwin.png" alt="Classification using TomoTwin on denoised particles" style="scale:100%">
+<img data-src="img/classification/classification_denoised_tomofind.webp" alt="Classification using TomoFind on denoised particles" style="scale:100%">
+<img data-src="img/classification/classification_denoised_tomotwin.webp" alt="Classification using TomoTwin on denoised particles" style="scale:100%">
 <p style="font-size: 0.8em" >Coloured by ground-truth particle types:
-<img data-src="img/particle_types.png" alt="Particle types" style="scale:80%">
+<img data-src="img/particle_types.webp" alt="Particle types" style="scale:70%">
 </p>
 </div>
 

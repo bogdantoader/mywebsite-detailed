@@ -46,6 +46,7 @@
 .reveal .green { color: #1DB100; }
 .reveal .gray { color: #929292; }
 .reveal .orange { color: #F27200; }
+.reveal .magenta { color: #FF42A1; }    /* the pink highlight in the Keynote slides */
 
 .reveal .listcurrent { color: #004D7F; font-weight: bold; }
 

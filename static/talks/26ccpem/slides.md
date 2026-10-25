@@ -309,9 +309,11 @@ Bonus: <strong class="tfblue">TomoFind</strong> also works on denoised tomograms
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms?
 
-<div class="grid cols-2">
+<div class="grid" style="grid-template-columns: repeat(2, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind features</strong>
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomogram_clean_z110.webp" alt="Tomogram slice">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomoencoder_z110_features.webp" alt="TomoFind features">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -321,10 +323,13 @@ Bonus: <strong class="tfblue">TomoFind</strong> also works on denoised tomograms
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms?
 
-<div class="grid cols-3">
+<div class="grid" style="grid-template-columns: repeat(3, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind features</strong>
 <strong class="orange">TomoTwin features</strong>
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomogram_clean_z110.webp" alt="Tomogram slice">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomoencoder_z110_features.webp" alt="TomoFind features">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomotwin_z110_features.webp" alt="TomoTwin features">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -353,9 +358,11 @@ TomoTwin-like **reference based** workflow:
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms?
 
-<div class="grid cols-2">
+<div class="grid" style="grid-template-columns: repeat(2, 600px)">
 <strong class="tfblue">TomoFind detections</strong>
 <strong class="orange">TomoTwin detections</strong>
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomoencoder_z110_tomogram.webp" alt="TomoFind detections on the tomogram">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomotwin_z110_tomogram.webp" alt="TomoTwin detections on the tomogram">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -378,6 +385,10 @@ Precision-recall curves for **TomoFind**<!-- .element: class="tfblue" --> and **
 <span>VLP (39 particles)</span>
 <span>Ferritin (86 particles)</span>
 <span>Thyroglobulin (102 particles)</span>
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_cytosolic_ribosome.webp" alt="Precision-recall curves for ribosome">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_pp7_vlp.webp" alt="Precision-recall curves for VLP">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_ferritin_complex.webp" alt="Precision-recall curves for ferritin">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_thyroglobulin.webp" alt="Precision-recall curves for thyroglobulin">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -387,10 +398,13 @@ Precision-recall curves for **TomoFind**<!-- .element: class="tfblue" --> and **
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms?
 
-<div class="grid cols-3">
+<div class="grid" style="grid-template-columns: repeat(3, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind features</strong>
 <strong class="orange">TomoTwin features</strong>
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomogram_clean_z110.webp" alt="Tomogram slice">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomoencoder_z110_features.webp" alt="TomoFind features">
+<img data-src="img/r3a/tomogram_19159_stride4_maxdistfeat4/slice_tomotwin_z110_features.webp" alt="TomoTwin features">
 </div>
 
 <div class="cool-box">
@@ -408,10 +422,13 @@ Idea: reference-free particle detection
 
 **Reference-free particle detection using feature magnitude**<!-- .element: class="magenta" -->
 
-<div class="grid cols-3">
+<div class="grid" style="grid-template-columns: repeat(3, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind feature norm</strong>
 <strong class="orange">TomoTwin feature norm</strong>
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/slice_tomogram_clean_z110.webp" alt="Tomogram slice">
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/slice_tomoencoder_z110_norm.webp" alt="TomoFind feature norm">
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/slice_tomotwin_z110_norm.webp" alt="TomoTwin feature norm">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -451,6 +468,10 @@ PR curves: norm-located peaks + dist to reference sweep
 <span>VLP (39 particles)</span>
 <span>Ferritin (86 particles)</span>
 <span>Thyroglobulin (102 particles)</span>
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_cytosolic_ribosome.webp" alt="Precision-recall curves for ribosome">
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_pp7_vlp.webp" alt="Precision-recall curves for VLP">
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_ferritin_complex.webp" alt="Precision-recall curves for ferritin">
+<img data-src="img/r3d/tomogram_19159_stride4_maxdistfeat4/pr_curves_per_type_thyroglobulin.webp" alt="Precision-recall curves for thyroglobulin">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19159</a>
@@ -460,10 +481,13 @@ PR curves: norm-located peaks + dist to reference sweep
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms <span class="magenta">reference-free</span>?
 
-<div class="grid cols-3">
+<div class="grid" style="grid-template-columns: repeat(3, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind features</strong>
 <strong class="orange">TomoTwin features</strong>
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomogram_clean_z100.webp" alt="Tomogram slice">
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomoencoder_z100_features.webp" alt="TomoFind features">
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomotwin_z100_features.webp" alt="TomoTwin features">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19099</a>
@@ -473,10 +497,13 @@ PR curves: norm-located peaks + dist to reference sweep
 ---
 ### Crowding robustness Q3: Can we detect particles in tomograms <span class="magenta">reference-free</span>?
 
-<div class="grid cols-3">
+<div class="grid" style="grid-template-columns: repeat(3, 560px)">
 <span>Tomogram</span>
 <strong class="tfblue">TomoFind feature norm</strong>
 <strong class="orange">TomoTwin feature norm</strong>
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomogram_clean_z100.webp" alt="Tomogram slice">
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomoencoder_z100_norm.webp" alt="TomoFind feature norm">
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/slice_tomotwin_z100_norm.webp" alt="TomoTwin feature norm">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19099</a>
@@ -488,9 +515,11 @@ PR curves: norm-located peaks + dist to reference sweep
 
 Ferritin (771 particles)
 
-<div class="grid cols-2">
+<div class="grid" style="grid-template-columns: repeat(2, 700px)">
 <span>Minimum distance detection</span>
 <span>Feature norm detection</span>
+<img data-src="img/r3a/tomogram_19099_stride4_maxdistfeat4/pr_curves_per_type_ferritin_complex.webp" alt="Precision-recall curves for ferritin, minimum distance detection">
+<img data-src="img/r3d/tomogram_19099_stride4_maxdistfeat4/pr_curves_per_type_ferritin_complex.webp" alt="Precision-recall curves for ferritin, feature norm detection">
 </div>
 
 <a href="https://cryoetdataportal.czscience.com/datasets/10445" class="citation">CZII Cryo-ET Portal, dataset 10445, tomogram 19099</a>
@@ -512,6 +541,8 @@ Ferritin (771 particles)
 
 * Tomogram of a *Nitrosopumilus maritimus* cell (von Kügelgen *et al.* Nature 2024)
 * Features: ribosomes, S-layer proteins and other things (fiducials, carbon grid)
+
+<!-- TODO video: tomogram -->
 
 <a href="https://www.nature.com/articles/s41586-024-07462-5" class="citation">von Kügelgen *et al.* Nature 2024</a>
 
@@ -537,6 +568,11 @@ Ferritin (771 particles)
 <span class="gray">3. Find peaks, extract embeddings and cluster</span><span class="gray">=> particle candidates</span>
 </div>
 
+<div class="grid" style="grid-template-columns: repeat(2, 480px)">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/tomo_zslices/z219.webp" alt="Tomogram slice">
+<!-- TODO video: feature volume -->
+</div>
+
 <!-- PDF p. 39 -->
 
 ---
@@ -546,6 +582,11 @@ Ferritin (771 particles)
 <strong>1. Apply TomoFind encoder to tomogram</strong><strong>=> feature volume</strong>
 <span class="gray">2. Compute feature norm at feature voxels</span><span class="gray">=> detection volume</span>
 <span class="gray">3. Find peaks, extract embeddings and cluster</span><span class="gray">=> particle candidates</span>
+</div>
+
+<div class="grid" style="grid-template-columns: repeat(2, 480px)">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/tomo_zslices/z219.webp" alt="Tomogram slice">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/feature_pca_zslices/z109.webp" alt="TomoFind feature volume slice">
 </div>
 
 <!-- PDF p. 40 -->
@@ -559,6 +600,12 @@ Ferritin (771 particles)
 <span class="gray">3. Find peaks, extract embeddings and cluster</span><span class="gray">=> particle candidates</span>
 </div>
 
+<div class="grid" style="grid-template-columns: repeat(3, 480px)">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/tomo_zslices/z219.webp" alt="Tomogram slice">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/feature_pca_zslices/z109.webp" alt="TomoFind feature volume slice">
+<!-- TODO video: detection volume -->
+</div>
+
 <!-- PDF p. 41 -->
 
 ---
@@ -568,6 +615,12 @@ Ferritin (771 particles)
 <span class="gray">1. Apply TomoFind encoder to tomogram</span><span class="gray">=> feature volume</span>
 <strong>2. Compute feature norm at feature voxels</strong><strong>=> detection volume</strong>
 <span class="gray">3. Find peaks, extract embeddings and cluster</span><span class="gray">=> particle candidates</span>
+</div>
+
+<div class="grid" style="grid-template-columns: repeat(3, 480px)">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/tomo_zslices/z219.webp" alt="Tomogram slice">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/feature_pca_zslices/z109.webp" alt="TomoFind feature volume slice">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/detection_probs_zslices/z109.webp" alt="Detection volume slice">
 </div>
 
 <!-- PDF p. 42 -->
@@ -581,6 +634,10 @@ Ferritin (771 particles)
 <strong>3. Find peaks, extract embeddings and cluster</strong><strong>=> particle candidates</strong>
 </div>
 
+<div class="grid" style="grid-template-columns: 560px">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/5clusters/clusters_scatter_cosine_umap.webp" alt="UMAP of particle embeddings, coloured by cluster">
+</div>
+
 <!-- PDF p. 43 -->
 
 ---
@@ -592,6 +649,11 @@ Ferritin (771 particles)
 <strong>3. Find peaks, extract embeddings and cluster</strong><strong>=> particle candidates</strong>
 </div>
 
+<div class="grid" style="grid-template-columns: 560px 480px">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/5clusters/clusters_scatter_cosine_umap.webp" alt="UMAP of particle embeddings, coloured by cluster">
+<!-- TODO video: tomogram -->
+</div>
+
 <!-- PDF p. 44 -->
 
 ---
@@ -601,6 +663,11 @@ Ferritin (771 particles)
 <span class="gray">1. Apply TomoFind encoder to tomogram</span><span class="gray">=> feature volume</span>
 <span class="gray">2. Compute feature norm at feature voxels</span><span class="gray">=> detection volume</span>
 <strong>3. Find peaks, extract embeddings and cluster</strong><strong>=> particle candidates</strong>
+</div>
+
+<div class="grid" style="grid-template-columns: 560px 480px">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/5clusters/clusters_scatter_cosine_umap.webp" alt="UMAP of particle embeddings, coloured by cluster">
+<img data-src="img/r6/rec_nmar_highdefocus_TS_018_ctfFalse_iufpTrue_snrFalse_10.0A/5clusters/tomo_zslices_picks_cosine/z219.webp" alt="Tomogram slice with picked particles, coloured by cluster">
 </div>
 
 <!-- PDF p. 45 -->
@@ -623,7 +690,7 @@ Ferritin (771 particles)
 <span style="font-size: 2em">→</span>
 <p><strong>Next</strong><br>Improved data diversity and PDB-grounded identification<br>=> cryo-ET foundation model</p>
 <span style="font-size: 2em">→</span>
-<p><strong>Goal</strong><br><strong><em class="orange">“One model to rule them all”</em></strong><br>Fast template-free discovery of all relevant structures in a single pass through the data</p>
+<p><img data-src="img/ring.webp" alt="The One Ring" style="width: 150px; margin: 0 auto"><strong>Goal</strong><br><strong><em class="orange">“One model to rule them all”</em></strong><br>Fast template-free discovery of all relevant structures in a single pass through the data</p>
 </div>
 
 <!-- PDF p. 46 -->
@@ -631,7 +698,7 @@ Ferritin (771 particles)
 ---
 ### Acknowledgements
 
-<div class="grid" style="grid-template-columns: auto auto; column-gap: 3em; text-align: left; font-size: 0.8em">
+<div class="grid" style="grid-template-columns: auto 720px; column-gap: 3em; text-align: left; font-size: 0.8em">
 <div>
 <p><strong>Scheres &amp; Bharat labs</strong></p>
 <div class="grid cols-2" style="align-items: start">
@@ -642,8 +709,11 @@ Ferritin (771 particles)
 </div>
 </div>
 <div>
+<img data-src="img/lmb_logo.webp" alt="UKRI MRC Laboratory of Molecular Biology">
+<img data-src="img/acknowledgements/EN_FundedbytheEU_RGB_POS.webp" alt="Funded by the European Union">
 <p><strong>Scientific Computing @ MRC LMB</strong></p>
 <p><strong>Isambard-AI National AI Research Resource (AIRR)</strong></p>
+<img data-src="img/acknowledgements/Bristol_BriCS_supercomputing_colour-scaled.webp" alt="Bristol Centre for Supercomputing" style="width: 65%">
 </div>
 </div>
 
